@@ -146,7 +146,7 @@
 
                 <section class="experience section">
                     <div class="section-inner">
-                        <h2 class="heading">Work Experience <a href="chandlerswift-resume-feb16.pdf">(R&eacute;sum&eacute;)</a></h2>
+                        <h2 class="heading">Work Experience <a href="chandlerswift-resume-dec17.pdf">(R&eacute;sum&eacute;)</a></h2>
                         <div class="content">
                             <div class="item">
                                 <h3 class="title">Web Developer &ndash; <span class="place"><a href="http://bravoreporting.com">Bravo Reporting</a></span> <span class="year">(Spring 2015 &ndash; Present)</span></h3>
