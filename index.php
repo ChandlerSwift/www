@@ -18,7 +18,7 @@
 <body>
     <header class="header">
         <div class="container">
-            <img class="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="Chandler Swift" />
+            <img id="profile-image" class="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="Chandler Swift" title="upupdowndownleftrightrightba" />
             <div class="profile-content pull-left">
                 <h1 class="name">Chandler Swift</h1>
                 <h2 class="desc">developer &middot; musician &middot; student</h2>
@@ -316,7 +316,19 @@
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script>
       $("#now-playing-container").load("/now-playing.php");
+
+      var kkeys = [], konami = "38,38,40,40,37,39,37,39,66,65";
+
+      $(document).keydown(function(e) {
+        kkeys.push( e.keyCode );
+        if ( kkeys.toString().indexOf( konami ) >= 0 ) {
+          $(document).unbind('keydown',arguments.callee);
+
+          $("#profile-image").attr("src", "/assets/images/profile-alt.png");
+        }
+      });
     </script>
+    <link rel="preload" href="/assets/images/profile-alt.png" as="image">
 </body>
 </html>
 
