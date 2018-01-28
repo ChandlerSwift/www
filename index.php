@@ -324,7 +324,8 @@
         if ( kkeys.toString().indexOf( konami ) >= 0 ) {
           $(document).unbind('keydown',arguments.callee);
 
-          $("#profile-image").attr("src", "/assets/images/profile-alt.png");
+          $("#profile-image").attr("src", "/assets/images/profile-alt.png")
+                             .attr("title", "Photo creds: @villnoweric");
         }
       });
     </script>
