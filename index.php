@@ -325,7 +325,7 @@
           $(document).unbind('keydown',arguments.callee);
 
           $("#profile-image").attr("src", "/assets/images/profile-alt.png")
-                             .attr("title", "Photo creds: @villnoweric");
+                             .attr("title", "Photo creds: Isaac Swift – isaacswift.com");
         }
       });
     </script>
