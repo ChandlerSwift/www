@@ -255,29 +255,13 @@
 
                 <aside class="list conferences aside section">
                     <div class="section-inner">
-                        <h2 class="heading">Sites I've Worked On</h2>
+                        <h2 class="heading">Portfolio/Sites I Run</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><a href="/" target="_blank">ChandlerSwift.com</a> &ndash; My Website
-                                  <ul>
-                                    <li>Design</li>
-                                  </ul>
-                                </li>
-                                <li><a href="http://troop352.us">Troop352.us</a> &ndash; My Scout Troop
-                                  <ul>
-                                    <li>Hosting</li>
-                                    <li>Wordpress administration/design</li>
-                                    <li>Training</li>
-                                  </ul>
-                                </li>
-                                <li><a href="http://stjohnscccc.org">StJohnsCCCC.org</a> &ndash; My Church
-                                  <ul>
-                                    <li>Hosting</li>
-                                    <li>Coordination</li>
-                                    <li>Training</li>
-                                    <li>Design</li>
-                                  </ul>
-                                </li>
+                                <li><a href="/" target="_blank">ChandlerSwift.com</a> &ndash; My Website</li>
+                                <li><a href="https://troop352.us">Troop352.us</a> &ndash; My Scout Troop</li>
+                                <li><a href="https://stjohnscccc.org">StJohnsCCCC.org</a> &ndash; My Church</li>
+				<li><a href="http://jaeckelorgans.com/">JaeckelOrgans.com</a> &ndash; a local organ builder</li>
                             </ul>
                         </div><!--//content-->
                     </div><!--//section-inner-->
