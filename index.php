@@ -19,7 +19,16 @@
 <body>
     <header class="header">
         <div class="container">
-            <img id="profile-image" class="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="Chandler Swift" title="upupdowndownleftrightrightba" />
+            <div class="flip-container pull-left profile-image" id="flippable-profile-image">
+                <div class="flipper">
+                    <div class="front">
+		        <img class="img-responsive" src="assets/images/profile.png" alt="Chandler Swift" title="upupdowndownleftrightrightba" />
+		    </div>
+                    <div class="back">
+		        <img class="img-responsive" src="assets/images/profile-alt.png" alt="Chandler Swift" title="Photo creds: Isaac Swift – isaacswift.com" />
+		    </div>
+                </div>
+            </div>
             <div class="profile-content pull-left">
                 <h1 class="name">Chandler Swift</h1>
                 <h2 class="desc">developer &middot; musician &middot; student</h2>
@@ -307,14 +316,11 @@
       $(document).keydown(function(e) {
         kkeys.push( e.keyCode );
         if ( kkeys.toString().indexOf( konami ) >= 0 ) {
-          $(document).unbind('keydown',arguments.callee);
-
-          $("#profile-image").attr("src", "/assets/images/profile-alt.png")
-                             .attr("title", "Photo creds: Isaac Swift – isaacswift.com");
+          kkeys = [];
+          document.querySelector("#flippable-profile-image").classList.toggle("flip");
         }
       });
     </script>
-    <link rel="preload" href="/assets/images/profile-alt.png" as="image">
 </body>
 </html>
 
