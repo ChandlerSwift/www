@@ -14,7 +14,7 @@ if (isset($_POST['name'])) {
   $mail->Host = 'smtp.mailgun.org';  			// Specify main and backup SMTP servers
   $mail->SMTPAuth = true;                               // Enable SMTP authentication
   $mail->Username = 'auto@cswift.tk';		        // SMTP username
-  $mail->Password = rtrim(file_get_contents('../lastfm-api-key.txt'));
+  $mail->Password = rtrim(file_get_contents('../mailgun-api-key.txt'));
   $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
   $mail->Port = 587;                                    // TCP port to connect to
 
