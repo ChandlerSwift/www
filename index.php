@@ -91,8 +91,8 @@
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>First and foremost, I'm a student at the <a href="https://d.umn.edu/">University of Minnesota, Duluth</a> studying <a href="https://d.umn.edu/cs/">Computer Science</a> and a little music. I enjoy working with computers, especially in relation to Linux (currently running <strike>Ubuntu</strike> <strike>Windows 10</strike> Ubuntu GNOME) and web development (full-stack). To that extent I've developed and hosted <a href="http://minecraftsocial.chandlerswift.com/">a Minecraft-centric social network</a> (<a href="https://github.com/ChandlerSwift/MinecraftSocial">Source on GitHub</a>) used for communication between disparate groups of Minecrafters.</p>
-                            <p> Musically, I like playing the piano, especially accompanying choirs (mostly high school and church). I also enjoy playing both <a href="https://www.youtube.com/watch?v=xSH4ciadjDs">piano</a> and organ for my church when I'm back at home, and I can occasionally be found there behind a trumpet as well. Jazz is fun. </p>
+                            <p>First and foremost, I'm a student at the <a href="https://d.umn.edu/">University of Minnesota, Duluth</a> studying <a href="https://d.umn.edu/cs/">Computer Science</a> and a little music. I enjoy working with computers, especially in relation to Linux (currently running <strike>Ubuntu</strike> <strike>Windows 10</strike> Ubuntu GNOME) and web development (full-stack).</p>
+                            <p> Musically, I like playing the piano, especially accompanying choirs (mostly high school and church). I also enjoy playing both <a href="https://www.youtube.com/watch?v=xSH4ciadjDs">piano</a> and <a href="https://www.youtube.com/watch?v=p1DxQMJe7EM">organ</a> for my church when I'm back at home, and I can occasionally be found there behind a trumpet as well. Jazz is fun. </p>
                             <p>Outside of school, I like to remain active with <a href="http://troop352.us/">my Boy Scout troop</a> (of which I am an Eagle Scout), especially on outdoor activities. I like reading science fiction, though I don't have as much time for it as I might like. I appreciate <a href="https://xkcd.com/">XKCD comics</a>, especially those about <a href="https://xkcd.com/722/">technology</a>.</p>
                         </div><!--//content-->
                     </div><!--//section-inner-->
@@ -193,7 +193,7 @@
 			 </div>
                      </div>
                  </aside>
-
+<!--
                  <aside class="skills aside section">
                     <div class="section-inner">
                         <h2 class="heading">Skills</h2>
@@ -208,35 +208,35 @@
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="95%">
                                         </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
+                                    </div><!--//level-bar--
+                                </div><!--//item--
                                 
                                 <div class="item">
                                     <h3 class="level-title">HTML5 &amp; CSS3<span class="level-label">Pro</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="85%">
                                         </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
+                                    </div><!--//level-bar--
+                                </div><!--//item--
 
                                 <div class="item">
                                     <h3 class="level-title">Javascript &amp; jQuery<span class="level-label">Good</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="60%">
                                         </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
+                                    </div><!--//level-bar--
+                                </div><!--//item--
 
                                 <div class="item">
                                     <h3 class="level-title">Python &amp; others<span style="text-decoration: underline;" class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="I've hacked together a few programs in a lot of languages, and I pick up new languages quickly!">Well...</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="35%">
                                         </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
+                                    </div><!--//level-bar--
+                                </div><!--//item--
                             </div>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
+                        </div><!--//content--
+                    </div><!--//section-inner--
                  </aside><!--//section-->
                  <aside class="education aside section">
                     <div class="section-inner">
@@ -298,7 +298,7 @@
     <!-- ******FOOTER****** -->
     <footer class="footer">
         <div class="container text-center">
-                <small class="copyright">&copy; 2012-2017 <a href="/">Chandler Swift</a> &ndash; Site design by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a></small>
+                <small class="copyright">&copy; 2012-2018 <a href="/">Chandler Swift</a> &ndash; Site design by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a></small>
         </div><!--//container-->
     </footer><!--//footer-->
 
