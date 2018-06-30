@@ -193,8 +193,8 @@
 			 </div>
                      </div>
                  </aside>
-<!--
-                 <aside class="skills aside section">
+
+<?php /*                 <aside class="skills aside section">
                     <div class="section-inner">
                         <h2 class="heading">Skills</h2>
                         <div class="content">
@@ -208,43 +208,45 @@
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="95%">
                                         </div>
-                                    </div><!--//level-bar--
-                                </div><!--//item--
+                                    </div><!--//level-bar-->
+                                </div><!--//item-->
                                 
                                 <div class="item">
                                     <h3 class="level-title">HTML5 &amp; CSS3<span class="level-label">Pro</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="85%">
                                         </div>
-                                    </div><!--//level-bar--
-                                </div><!--//item--
+                                    </div><!--//level-bar-->
+                                </div><!--//item-->
 
                                 <div class="item">
                                     <h3 class="level-title">Javascript &amp; jQuery<span class="level-label">Good</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="60%">
                                         </div>
-                                    </div><!--//level-bar--
-                                </div><!--//item--
+                                    </div><!--//level-bar-->
+                                </div><!--//item-->
 
                                 <div class="item">
                                     <h3 class="level-title">Python &amp; others<span style="text-decoration: underline;" class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="I've hacked together a few programs in a lot of languages, and I pick up new languages quickly!">Well...</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="35%">
                                         </div>
-                                    </div><!--//level-bar--
-                                </div><!--//item--
+                                    </div><!--//level-bar-->
+                                </div><!--//item-->
                             </div>
-                        </div><!--//content--
-                    </div><!--//section-inner--
-                 </aside><!--//section-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                 </aside><!--//section--> */ ?>
                  <aside class="education aside section">
                     <div class="section-inner">
                         <h2 class="heading">Education</h2>
                         <div class="content">
                             <div class="item">
                                 <h3 class="title"><i class="fa fa-graduation-cap"></i> College: Computer Science</h3>
-                                <h4 class="university">University of Minnesota &ndash; Duluth <span class="year">(2015&ndash;2019)</span></h4>
+                                <h4 class="university">University of Minnesota Duluth<br/>
+                                Dean's List 6/6, Presidential Scholarship<br/>
+                                <span class="year">(2015&ndash;2019)</span></h4>
                             </div><!--//item-->
                             <div class="item">
                                 <h3 class="title"><i class="fa fa-graduation-cap"></i> GSL High School &ndash; Glencoe, MN</h3>
