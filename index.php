@@ -286,7 +286,7 @@
                                 <li><a href="https://cswift.tk/" target="_blank">URL Shortener</a> (<a href="https://yourls.org/">YOURLS</a>)</li>
                                 <li><a href="https://experiments.chandlerswift.com/" target="_blank">Current and Archived Projects</a></li>
                                 <li><a href="https://ac.cswift.tk/" target="_blank">AssaultCube Server</a></li>
-				<li><a href="https://minecraft.chandlerswift.com" target="_blank">Minecraft Server</a></li>
+				<li><a href="https://duluth.chandlerswift.com/minecraft/" target="_blank">Minecraft Server</a></li>
                             </ul>
                         </div><!--//content-->
                     </div><!--//section-inner-->
