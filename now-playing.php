@@ -4,13 +4,13 @@
 ?>
 <div class="row">
   <div class="col-xs-4">
-    <img style="max-width:100%" src="<?= $track->image[2]->{'#text'} ?>" />
+    <img style="max-width:100%" src="<?php echo $track->image[2]->{'#text'} ?>" />
   </div>
   <div class="col-xs-8">
-    <b><a href="<?= $track->url ?>">
-        <?= $track->name ?>
+    <b><a href="<?php echo $track->url ?>">
+        <?php echo $track->name ?>
     </a></b>
-    <p><?= $track->artist->{'#text'} ?></p>
-    <p><?= $track->album->{'#text'} ?></p>
+    <p><?php echo $track->artist->{'#text'} ?></p>
+    <p><?php echo $track->album->{'#text'} ?></p>
   </div>
 </div>
