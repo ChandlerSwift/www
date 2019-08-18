@@ -39,6 +39,8 @@
                     <li><a href="https://twitter.com/swftbot"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="https://last.fm/user/chandlerswift"><i class="fa fa-lastfm"></i></a></li>
                     <li><a href="https://open.spotify.com/user/chandlerswift"><i class="fa fa-spotify"></i></a></li>
+                    <li><a href="/chandlerswift.keys"><i class="fa fa-lock"></i></a></li>
+                    <li><a href="/chandlerswift.gpg"><i class="fa fa-key"></i></a></li>
                     <li class="last-item"><a href="https://www.facebook.com/chandler.swift.16"><i class="fa fa-facebook"></i></a></li>
                 </ul>
             </div><!--//profile-->
