@@ -209,7 +209,7 @@
                             <div class="item">
                                 <h3 class="title"><i class="fa fa-graduation-cap"></i> College: Computer Science</h3>
                                 <h4 class="university">University of Minnesota Duluth<br/>
-                                Dean's List 6/6, Presidential Scholarship<br/>
+                                Dean's List 8/8, Presidential Scholarship<br/>
                                 <span class="year">(2015&ndash;2019)</span></h4>
                             </div><!--//item-->
                             <div class="item">
