@@ -44,47 +44,9 @@
                     <li class="last-item"><a href="https://www.facebook.com/chandler.swift.16"><i class="fa fa-facebook"></i></a></li>
                 </ul>
             </div><!--//profile-->
-            <button type="button" class="btn btn-cta-primary pull-right" data-toggle="modal" data-target="#contactModal"><i class="fa fa-paper-plane"></i> Contact Me</button>
+            <a type="button" href="mailto:chandler@chandlerswift.com" class="btn btn-cta-primary pull-right" <i class="fa fa-paper-plane"></i> Contact Me</a>
         </div><!--//container-->
     </header><!--//header-->
-
-    <!-- Modal -->
-    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="ModalTitle">Contact Me</h4>
-          </div>
-          <div class="modal-body">
-            <form class="form-horizontal" id="contactForm">
-              <div class="form-group">
-                <label for="name" class="col-sm-2 control-label">Name</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="email" class="col-sm-2 control-label">Email</label>
-                <div class="col-sm-10">
-                  <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
-                  </div>
-              </div>
-              <div class="form-group">
-                <label for="message" class="col-sm-2 control-label">Message</label>
-                <div class="col-sm-10">
-                  <textarea class="form-control" rows="4" name="message" required></textarea>
-                </div>
-              </div>
-          </div>
-          <div class="modal-footer">
-            <input class="btn btn-success" type="submit" value="Send!" id="submit">
-            <button class="btn" data-dismiss="modal">Cancel</a>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <div class="container sections-wrapper">
         <div class="row">
