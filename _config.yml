@@ -1,0 +1,8 @@
+title: Chandler Swift's Blog
+plugins:
+    - jekyll-paginate
+    - jekyll-seo-tag
+markdown: kramdown
+paginate: 10
+paginate_path: "/archive/page:num/"
+logo: /avatar.jpg

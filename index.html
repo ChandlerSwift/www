@@ -1,182 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: page
+title: About
+---
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description"
-		content="Chandler Swift: Cloud Engineer at work, assorted hacks at home. Musician, tinkerer.">
-	<meta name="author" content="Chandler Swift">
-	<link rel="shortcut icon" href="favicon.png">
-	<title>Chandler Swift | Developer, Musician, Tinkerer</title>
-	<style>
+<p>First and foremost, I'm a student at the <a href="https://d.umn.edu/">University of Minnesota Duluth</a>
+  studying <a href="https://d.umn.edu/cs/">Computer Science</a> and a little music. I enjoy working with
+  computers, especially in relation to Linux (currently running Debian, with a history of Ubuntu and
+  occasionally playing with minimalist tiling window managers) administration and web development
+  (full-stack).</p>
+<p>Regarding music, I am the regular <a href="https://youtu.be/31Ipq5v9T8E?t=3205">organist</a>/<a
+    href="https://www.youtube.com/watch?v=xSH4ciadjDs">pianist</a>/<a
+    href="https://www.youtube.com/watch?v=byk43j57SeM">accompanist</a> at <a
+    href="http://pilgrimduluth.org/">Pilgrim UCC, Duluth, MN</a>, and an accompanist for the <a
+    href="https://www.lsyouthchorus.org/">Lake Superior Youth Chorus</a>. I am one of the hosting trio
+  for <a href="https://www.facebook.com/JazzatBlush">Jazz at Blush</a> on Monday nights (and if you play
+  an instrument, please come join us!). I especially enjoy playing in small ensembles
+  <a href="https://www.youtube.com/watch?v=R9MqV2G2XAE">and</a>
+  <a href="https://youtu.be/rxqeobkiNgg?t=482">with</a>
+  <a href="https://www.youtube.com/watch?v=cgygq_R-RhY">other</a>
+  <a href="https://www.youtube.com/watch?v=Gs4GqA0v690">people</a>
+  as much as I can.</p>
+<p>Outside of school, I like to remain active with <a href="http://troop352.us/">my Boy Scout troop</a> (of
+  which I am an Eagle Scout), especially on outdoor activities. I enjoy reading science fiction, though I
+  don't have as much time for it as I might like. I appreciate <a href="https://xkcd.com/">XKCD
+  comics</a>, especially those about <a href="https://xkcd.com/722/">technology</a>.</p>
 
-		/* Global CSS */
-		div.container {
-			margin: 0 auto;
-			max-width: 1200px;
-			font-family: sans-serif;
-			display: grid;
-		}
+{% comment %}
+<!-- When blog posts get imported, move the above to a bio page, and re-introduce the below. -->
+<div class="media">
+{% for post in site.posts limit:10 %}
+{% include post-stub.html post=post %}
+{% endfor %}
+</div>
 
-		#nav-links {
-			font-family: sans-serif;
-			margin-top: -10px;
-			margin-bottom: 40px;
-		}
-
-		/* chandlerswift.com-specific css */
-		div.container {
-			grid-template-columns: 3fr 1fr;
-		}
-
-		div.content {
-			grid-column-start: 1;
-		}
-
-		div.content p,
-		div.content li {
-			font-family: serif;
-		}
-
-		#nav-links {
-			font-family: sans-serif;
-			margin-top: -10px;
-			margin-bottom: 40px;
-		}
-
-		div.sidebar {
-			grid-column-start: 2;
-			padding-left: 2rem;
-			color: #444;
-			padding-top: 20px;
-		}
-
-		div.sidebar section {
-			margin-top: 40px;
-		}
-
-		img {
-			display: block;
-			margin: 0 auto;
-			max-width: 100%;
-		}
-
-		img.profile-img {
-			border-radius: 5px;
-			max-width: 50%;
-		}
-
-		@media (max-width: 768px) {
-			div.container {
-				display: block;
-			}
-
-			div.container div.sidebar {
-				padding-left: 0;
-			}
-		}
-
-		div.profile-links span.label {
-			display: block;
-			font-size: 0.8em;
-			color: #888;
-		}
-	</style>
-</head>
-
-<body>
-	<div class="container">
-		<div class="content">
-			<h1>Chandler Swift</h1>
-			<p id="nav-links"><strong><a href="https://chandlerswift.com/">Home</a></strong> |
-				<a href="https://home.chandlerswift.com/">Local (Eden Prairie, MN)</a> |
-				<a href="https://duluth.chandlerswift.com/">Old local (Duluth, MN)</a> |
-				<a href="https://glencoe.chandlerswift.com/">Offsite (Glencoe, MN)</a></p>
-			<h2>About</h2>
-			<p>First and foremost, I'm a student at the <a href="https://d.umn.edu/">University of Minnesota Duluth</a>
-				studying <a href="https://d.umn.edu/cs/">Computer Science</a> and a little music. I enjoy working with
-				computers, especially in relation to Linux (currently running Debian, with a history of Ubuntu and
-				occasionally playing with minimalist tiling window managers) administration and web development
-				(full-stack).</p>
-			<p>Regarding music, I am the regular <a href="https://youtu.be/31Ipq5v9T8E?t=3205">organist</a>/<a
-					href="https://www.youtube.com/watch?v=xSH4ciadjDs">pianist</a> and <a
-					href="https://www.youtube.com/watch?v=byk43j57SeM">accompanist</a> at <a
-					href="http://pilgrimduluth.org/">Pilgrim UCC, Duluth, MN</a>, and an accompanist for the <a
-					href="https://www.lsyouthchorus.org/">Lake Superior Youth Chorus</a>. I am one of the hosting trio
-				for <a href="https://www.facebook.com/JazzatBlush">Jazz at Blush</a> on Monday nights (and if you play
-				an instrument, please come join us!). I especially enjoy playing in small ensembles
-				<a href="https://www.youtube.com/watch?v=R9MqV2G2XAE">and</a>
-				<a href="https://youtu.be/rxqeobkiNgg?t=482">with</a>
-				<a href="https://www.youtube.com/watch?v=cgygq_R-RhY">other</a>
-				<a href="https://www.youtube.com/watch?v=Gs4GqA0v690">people</a>
-				as much as I can.</p>
-			<p>Outside of school, I like to remain active with <a href="http://troop352.us/">my Boy Scout troop</a> (of
-				which I am an Eagle Scout), especially on outdoor activities. I enjoy reading science fiction, though I
-				don't have as much time for it as I might like. I appreciate <a href="https://xkcd.com/">XKCD
-				comics</a>, especially those about <a href="https://xkcd.com/722/">technology</a>.</p>
-		</div>
-		<div class="sidebar">
-			<section id="profile">
-				<img src="https://avatars3.githubusercontent.com/u/8261698?s=128&u=d13c1ce0870f4e3c7f3a3cb99140f97bcf4584e4&v=4"
-					alt="Chandler Swift" class="profile-img">
-				<p>Cloud Engineer at work, assorted hacks at home. Musician, tinkerer.</p>
-
-				<div class="profile-links">
-					<p>
-						<span class="label">email</span>
-						<a href="mailto:chandler@chandlerswift.com">chandler@chandlerswift.com</a>
-					</p>
-					<p>
-						<span class="label">github</span>
-						<a href="https://github.com/chandlerswift">chandlerswift</a>
-					</p>
-					<p>
-						<span class="label">sourcehut</span>
-						<a href="https://git.sr.ht/~chandlerswift">~chandlerswift</a>
-					</p>
-					<p>
-						<span class="label">spotify</span>
-						<a href="https://open.spotify.com/user/chandlerswift">chandlerswift</a>
-					</p>
-					<p>
-						<span class="label">last.fm</span>
-						<a href="https://last.fm/user/chandlerswift">chandlerswift</a>
-					</p>
-					<p>
-						<span class="label">pgp</span>
-						<a href="https://meta.sr.ht/~chandlerswift.pgp">A851 D929 D52F B93F</a>
-					</p>
-					<p>
-						<span class="label">ssh</span>
-						<a href="https://meta.sr.ht/~chandlerswift.keys">keys @ sourcehut</a>
-					</p>
-				</div>
-
-			</section>
-			<section id="work-section">
-				<h3>Work</h3>
-				<p><a href="#">R&eacute;sum&eacute;</a> &middot; <a
-						href="https://linkedin.com/in/chandlerswift/">LinkedIn</a></p>
-				<p>Cloud Engineer at <a href="https://home.pearsonvue.com/">Pearson VUE</a></p>
-				<p>Previously Cybersecurity Engineering Intern at <a
-						href="https://www.lockheedmartin.com/en-us/index.html">Lockheed Martin Aeronautics</a>,
-					Software Developer at <a href="https://bravoreporting.com/">Bravo Reporting Systems</a>,
-					and Undergrad Research Assistant for <a href="https://www.d.umn.edu/~pahp/">Dr. Peter Peterson</a>
-					at UMD.</p>
-			</section>
-			<section id="copyright-section">
-				<h3>License</h3>
-				<p style="font-size: 10pt">
-					The content for this site is
-					<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>.
-					The <a href="https://github.com/chandlerswift/www">code</a> for this site is
-					<a href="https://opensource.org/licenses/MIT">MIT</a>. Some code and heavy design
-					inspiration taken from
-					<a href="https://git.sr.ht/~sircmpwn/drewdevault.com">Drew DeVault</a>.</p>
-			</section>
-		</div>
-	</div>
-</body>
-
-</html>
+{% if site.posts.size > 10 %}
+<div class="pull-right">
+    <a href="/archive/page2/" class="btn btn-primary">
+        Page 2
+        <span class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"/></svg>
+        </span>
+    </a>
+</div>
+<div class="clearfix"></div>
+{% endif %}
+{% endcomment %}
