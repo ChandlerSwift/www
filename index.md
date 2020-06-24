@@ -34,18 +34,20 @@ especially on outdoor activities. I enjoy reading science fiction, though I
 don't have as much time for it as I might like. I appreciate [XKCD](https://xkcd.com/)
 comics, especially about [technology](https://xkcd.com/722/).
 
-{% comment %}
-<!-- When blog posts get imported, move the above to a bio page, and re-introduce the below. -->
+<hr class="separator">
+
+{% if site.posts.size > 0 %}
+## Blog
 <div class="media">
-{% for post in site.posts limit:10 %}
+{% for post in site.posts limit:3 %}
 {% include post-stub.html post=post %}
 {% endfor %}
 </div>
 
-{% if site.posts.size > 10 %}
+{% if site.posts.size > 3 %}
 <div class="pull-right">
-    <a href="/archive/page2/" class="btn btn-primary">
-        Page 2
+    <a href="/archive/page1/" class="btn btn-primary">
+        More
         <span class="icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"/></svg>
         </span>
@@ -53,4 +55,15 @@ comics, especially about [technology](https://xkcd.com/722/).
 </div>
 <div class="clearfix"></div>
 {% endif %}
-{% endcomment %}
+
+<hr class="separator">
+{% endif %}
+
+## Projects
+
+<div class="media">
+{% assign projects = site.projects | sort: 'date' | reverse %}
+{% for project in projects %}
+{% include project-stub.html project=project %}
+{% endfor %}
+</div>
