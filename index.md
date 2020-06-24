@@ -3,6 +3,13 @@ layout: page
 title: Home
 ---
 
+<h1>Chandler Swift</h1>
+<p id="nav-links">
+  <strong><a href="https://chandlerswift.com/">Home</a></strong> |
+  <a href="https://edenprairie.chandlerswift.com/">Eden Prairie, MN</a>
+</p>
+<hr class="separator">
+
 ## About
 I'm a lifelong hacker (the
 [good kind](http://catb.org/~esr/jargon/html/H/hacker.html)!). My parents
@@ -15,7 +22,7 @@ hardware and software everything in between. Things I like include C and Go
 and Linux and Assembly and MIDI and abusing hardware and...! Things I don't
 like include: CSS. Ask me about my latest project!
 
-As a musician I'm wrapping up a stint as the 
+As a musician I'm wrapping up a stint as the
 [organist](https://youtu.be/31Ipq5v9T8E?t=3205)/[pianist](https://www.youtube.com/watch?v=xSH4ciadjDs)/[accompanist](https://www.youtube.com/watch?v=byk43j57SeM)
 at [Pilgrim Congregational Church in Duluth, MN](http://pilgrimduluth.org/),
 and another as an accompanist for the [Lake Superior Youth Chorus](https://www.lsyouthchorus.org/).

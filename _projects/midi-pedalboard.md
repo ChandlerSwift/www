@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: Building a MIDI Pedalboard
 excerpt: In which I build a MIDI pedalboard from a Baldwin 125B pedalboard and a bit of Arduino magic!
 date: 2017-12-12
