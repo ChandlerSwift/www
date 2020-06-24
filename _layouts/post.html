@@ -1,5 +1,16 @@
 ---
 layout: base
 ---
-
-{{ content }}
+<h2>{{ page.title }}</h2>
+<p class="date">
+	{% if page.date %}Published {{ page.date | date: "%Y-%m-%d" }}{% endif %}
+	<span class="hidden-xs">
+		&mdash;
+		<a href="{{ page.url }}">
+			Permalink
+		</a>
+	</span>
+</p>
+<article>
+	{{ content }}
+</article>

@@ -5,6 +5,5 @@ plugins:
 markdown: kramdown
 paginate: 10
 paginate_path: "/archive/page:num/"
-logo: /avatar.jpg
 include:
     - .well-known

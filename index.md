@@ -1,8 +1,9 @@
 ---
 layout: page
-title: About
+title: Home
 ---
 
+## About
 I'm a lifelong hacker (the
 [good kind](http://catb.org/~esr/jargon/html/H/hacker.html)!). My parents
 have a story they like to tell at my expense: At just a few years old, I was
