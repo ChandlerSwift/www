@@ -2,6 +2,7 @@
 layout: post
 title: Auto-timed Fish Tank Light
 excerpt: In which I build a NTP-syncin' LED-blinkin' fish light timer.
+date: 2018-11-30
 ---
 
 My roommates and I have a fish.
@@ -33,5 +34,3 @@ Later, testing the ESP-01 with the newfound serial adapter:
 <!-- Final product:
 ![]()
 TODO: add photo -->
-
-
