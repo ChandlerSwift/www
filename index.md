@@ -38,8 +38,10 @@ as much as I can.
 In my free time, I try to remain active with
 [my Boy Scout troop](https://troop352.us/) (of which I am an Eagle Scout),
 especially on outdoor activities. I enjoy reading science fiction, though I
-don't have as much time for it as I might like. I appreciate [XKCD](https://xkcd.com/)
-comics, especially about [technology](https://xkcd.com/722/).
+don't have as much time for it as I might like. I appreciate
+[XKCD](https://xkcd.com/) comics, especially
+[about](https://xkcd.com/1760/)
+[technology](https://xkcd.com/722/).
 
 <hr class="separator">
 
