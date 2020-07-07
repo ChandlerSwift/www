@@ -69,7 +69,7 @@ don't have as much time for it as I might like. I appreciate
 <hr class="separator">
 {% endif %}
 
-## Projects
+## [Projects](/projects/)
 
 <div class="media">
 {% assign projects = site.projects | sort: 'date' | reverse %}

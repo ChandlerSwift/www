@@ -1,0 +1,11 @@
+---
+layout: page
+title: "Chandler Swift: Projects"
+---
+<h1>Chandler Swift: Projects</h1>
+<div class="media">
+    {% assign projects = site.projects | sort: 'date' | reverse %}
+    {% for project in projects %}
+    {% include project-stub.html project=project %}
+    {% endfor %}
+</div>
