@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Home
+regenerate: true
 ---
 
 <h1>Chandler Swift</h1>
