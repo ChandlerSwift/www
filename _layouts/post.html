@@ -3,13 +3,7 @@ layout: base
 ---
 <h2>{{ page.title }}</h2>
 <p class="date">
-	{% if page.date %}Published {{ page.date | date: "%Y-%m-%d" }}{% endif %}
-	<span class="hidden-xs">
-		&mdash;
-		<a href="{{ page.url }}">
-			Permalink
-		</a>
-	</span>
+	{% if page.date %}Published {{ page.date | date: "%B %d, %Y" }} on <a href="/">Chandler Swift's Blog</a>{% endif %}
 </p>
 <article>
 	{{ content }}
