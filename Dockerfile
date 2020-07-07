@@ -3,9 +3,9 @@ FROM ruby:latest
 RUN gem install \
   github-pages \
   jekyll \
-  jekyll-redirect-from \
+  jekyll-paginate \
+  jekyll-seo-tag \
   kramdown \
-  rdiscount \
   rouge
 
 VOLUME /src
