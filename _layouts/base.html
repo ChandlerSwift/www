@@ -32,11 +32,6 @@
 		grid-column-start: 1;
 	}
 
-/*	div.content p,
-	div.content li {
-		font-family: serif;
-	}*/
-
 	#nav-links {
 		font-family: sans-serif;
 		margin-top: -10px;
@@ -96,7 +91,14 @@
 	}
 
 	.pull-right {
-		text-align: right;
+		float: right;
+	}
+	.pull-right {
+		float: right;
+	}
+	/* https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats#Clearing_boxes_wrapped_around_a_float */
+	.clearfix {
+		clear: both;
 	}
 
 	.icon {
