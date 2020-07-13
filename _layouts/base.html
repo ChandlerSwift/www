@@ -30,6 +30,7 @@
 
 	div.content {
 		grid-column-start: 1;
+		overflow: auto; /* For some reason, without this, the overflow on <pre>s breaks. */
 	}
 
 	#nav-links {
@@ -151,6 +152,9 @@
 		border-top: 1px solid #ccc;
 	}
 </style>
+{% if page.include_syntax_styles %}
+<link rel="stylesheet" type="text/css" href="/css/syntax.css">
+{% endif %}
 </head>
 
 <body>
