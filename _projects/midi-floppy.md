@@ -3,6 +3,8 @@ layout: project
 title: Using a 5.25" Floppy as a MIDI instrument
 date: 2018-03-17
 include_syntax_styles: true
+excerpt: In which Jeff and I get hopelessly distracted from our original goal
+  and wind up making music from a 5.25" floppy drive.
 ---
 
 A friend and I recently uncovered a 1992-ish PC, boasting 4MB of RAM, a nearly
