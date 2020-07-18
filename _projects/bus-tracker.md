@@ -91,8 +91,8 @@ to run a proper display rather than a 16 character LCD, I rethought my UI, and
 landed on this:
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
-    <img alt="The bus tracker's UI (no route selected)" width=360 src="/images/bus-tracker/ui.png">
-    <img alt="The bus tracker's UI (route 13 selected)" width=360 src="/images/bus-tracker/ui-selected.png">
+    <img alt="The bus tracker's UI (no route selected)" width="360" src="/images/bus-tracker/ui.png">
+    <img alt="The bus tracker's UI (route 13 selected)" width="360" src="/images/bus-tracker/ui-selected.png">
 </div>
 
 The first image is the usual view, with information of all 4 routes that run
@@ -103,7 +103,7 @@ it's washed out in many of the photos, the buses are colored using the DTA's
 colors, which are printed on the route maps and also provided via the API!
 Here's a demo of route selection on an early demo of the map:
 
-<video controls height=240 style="display: block; margin: auto; padding: 20px;">
+<video controls height="240" style="display: block; margin: auto; padding: 20px;">
     <source src="/images/bus-tracker/ui-demo.mp4" type="video/mp4">
 </video>
 
@@ -111,19 +111,19 @@ I didn't get many interesting photos of the work in progress, but here are a
 few highlights:
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
     <a href="/images/bus-tracker/front-with-real-buses.jpg">
-        <img alt="The front of the map with real data being displayed" height=240 src="/images/bus-tracker/front-with-real-buses-sm.jpg">
+        <img alt="The front of the map with real data being displayed" height="240" src="/images/bus-tracker/front-with-real-buses-sm.jpg">
     </a>
     <a href="/images/bus-tracker/back-with-pi.jpg">
-        <img alt="The front of the map with real data being displayed" height=240 src="/images/bus-tracker/back-with-pi-sm.jpg">
+        <img alt="The front of the map with real data being displayed" height="240" src="/images/bus-tracker/back-with-pi-sm.jpg">
     </a>
     <a href="/images/bus-tracker/back-with-light.jpg">
-        <img alt="The front of the map with real data being displayed" height=240 src="/images/bus-tracker/back-with-light-sm.jpg">
+        <img alt="The front of the map with real data being displayed" height="240" src="/images/bus-tracker/back-with-light-sm.jpg">
     </a>
     <a href="/images/bus-tracker/cardboard-with-holes.jpg">
-        <img alt="The front of the map with real data being displayed" height=240 src="/images/bus-tracker/cardboard-with-holes-sm.jpg">
+        <img alt="The front of the map with real data being displayed" height="240" src="/images/bus-tracker/cardboard-with-holes-sm.jpg">
     </a>
     <a href="/images/bus-tracker/dustin-holding-frame.jpg">
-        <img alt="The front of the map with real data being displayed" height=240 src="/images/bus-tracker/dustin-holding-frame-sm.jpg">
+        <img alt="The front of the map with real data being displayed" height="240" src="/images/bus-tracker/dustin-holding-frame-sm.jpg">
     </a>
 </div>
 
