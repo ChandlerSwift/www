@@ -4,7 +4,7 @@ title: Tracking Duluth buses with an interactive light-up map
 include_syntax_styles: true
 excerpt: In which I design and build a 3x4 foot interactive map of Duluth (or
     at least the parts in which I regularly travel) to view bus locations
-published: 2019-12-09
+date: 2019-12-09
 ---
 
 I have an unpopular opinion to share: Public transit is fantastic. I'll back up
