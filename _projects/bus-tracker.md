@@ -82,13 +82,18 @@ wireframe maps had a good combination of data and contrast for me) and traced!
     and drilling the map!
 
 I went through several iterations on the display. At first, because I don't like
-wasting resources, I was using an ESP8266 as a controller. However, not being
-able to do live updates and debugging on the date on the device, and having to
-precompile all the routes into software rather than loading them dynamically
-(the routes file was a few megabytes; the ESP8266 has, usually, 1MB of RAM)
-left me unimpressed, so I switched over to a Raspberry Pi 2B+. With enough power
-to run a proper display rather than a 16 character LCD, I rethought my UI, and
-landed on this:
+using high-power devices when much simpler processors will do the trick, I was
+using an ESP8266 as a controller. However, this meant that I wasn't able to do
+live code updates and debugging on the controller, and that I would have to
+precompile all the routes into software rather than loading them
+dynamically[^processing-on-esp8266]. This left me unimpressed, so I switched
+over to a Raspberry Pi 2B+. With enough power to run a proper display rather
+than a 16 character LCD, I rethought my UI and landed on this:
+
+[^processing-on-esp8266]: While I'd much rather be able to download these
+    directly from the device, and preferably on-demand, space constraints win
+    out here. The routes file was a few megabytes; the ESP8266 has, usually, 1MB
+    of RAM---it simply wasn't going to fit.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
     <img alt="The bus tracker's UI (no route selected)" width="360" src="/images/bus-tracker/ui.png">
