@@ -14,4 +14,4 @@ preview:
 
 .PHONY: clean
 clean:
-	rm -rf .jekyll-cache .jekyll-metadata
+	rm -rf .jekyll-cache .jekyll-metadata _site
