@@ -37,21 +37,24 @@ nice, and WebMIDI promised just that[^no-firefox]!
     eight years now, and I don't want it badly enough to do it myself, so here
     it sits!
 
-SVG seemed to be an easy way to make an easy keyboard display. (In hindsight,
+SVG seemed to be an easy way to make a simple keyboard display. (In hindsight,
 I would have likely been able to do a very similar thing with an HTML canvas,
 but &#xAF;\\\_(&#x30C4;)_/&#xAF;!) I didn't find any SVG keyboard illustrations
 that I liked, and wound up drawing my own. I started in Inkscape, but Inkscape
 adds a lot of [unnecessary, invisible content](https://xkcd.com/2109/) when I'm
-just trying to display rectangles!
+just trying to display rectangles. I didn't want anything complex, and the SVG
+spec is quite simple, so I just built the SVG myself, with
+[a python script](https://github.com/ChandlerSwift/piano-heatmap/blob/master/generate-svg.py)
+for tackling the repetitive bits. 
 
-While testing, I _did_ answer a question I've had open since Part 1: What's the
-distribution of notes like in "F&uuml;r Elise"? Well, here's a shot at
-it[^mistakes-were-made], playing from
+Later on while testing, I _did_ answer a question I've had open since Part 1:
+What's the distribution of notes like in "F&uuml;r Elise"? Well, here's a shot
+at it[^mistakes-were-made], playing from
 [IMSLP's Breitkopf edition](https://imslp.org/wiki/File:PMLP14377-Beethoven_Werke_Breitkopf_Serie_25_No_298_WoO_59_Fuer_Elise.pdf).
-This is once through the entire piece, following repeats, etc., as marked,
-strictly as written without embellishment. Ten internet points to anyone who
-wants to download a MIDI file from IMSLP and feed it through here (or record it
-more carefully than I did!):
+This represents once through the entire piece, following repeats, etc., as
+marked, strictly as written without embellishment. Ten internet points to anyone
+who wants to download a MIDI file from IMSLP and feed it through here (or record
+it more carefully than I did!):
 
 [^mistakes-were-made]: Since my computer and stage piano are in separate rooms,
     I dragged a Roland PCR-500 onto my desk as a much more portable tool for
