@@ -1,7 +1,6 @@
 ---
-layout: project
+layout: post
 title: Piano Heatmap Analysis (Part 1)
-date: 2015-09-10
 ---
 
 I have always been curious about what the most-used key on my piano is. Songs
