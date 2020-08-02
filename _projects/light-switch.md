@@ -153,7 +153,13 @@ compact as possible.
 One of the things I enjoyed most about this project was that it gave me a neat
 hardware platform to do some software hacking against. This has been my second
 program after the obligatory “Hello World!” in every language I’ve tried over
-the past year or so: Will it turn on my lights? So far I’ve implemented:
+the past year or so: Will it turn on my lights?
+
+<video controls style="display: block; margin: auto; padding: 20px;">
+    <source src="/images/light-switch/javafx-app-demo.mp4" type="video/mp4">
+</video>
+
+So far I’ve implemented:
 
  * [an HTML client](https://github.com/ChandlerSwift/lightswitch-html/blob/master/client.html)
  * [a JavaScript client](https://github.com/ChandlerSwift/lightswitch-html/blob/master/js-client.html)
