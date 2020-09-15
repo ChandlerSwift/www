@@ -21,7 +21,11 @@ I vehemently deny everything. The interest in computers has stayed, though I
 like to think I require a bit less supervision now, and I like to tinker with
 hardware and software everything in between. Things I like include C and Go
 and Linux and Assembly and MIDI and abusing hardware and...! Things I don't
-like include: CSS. Ask me about my latest project!
+like include: CSS. I run
+[this software](https://github.com/chandlerswift/dotfiles) on
+[this OS](/what-os.html) on
+[this hardware](https://pcpartpicker.com/list/HMPTdm).
+Ask me about my latest project!
 
 As a musician I'm wrapping up a stint as the
 [organist](https://youtu.be/31Ipq5v9T8E?t=3205)/[pianist](https://www.youtube.com/watch?v=xSH4ciadjDs)/[accompanist](https://www.youtube.com/watch?v=byk43j57SeM)
