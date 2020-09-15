@@ -97,9 +97,9 @@ with how easy Wayland is making a display server switch.
 ### Spring 2020: Arch Linux
 Okay, so it's been almost a year, and my system doesn't seem to know whether
 it's on Debian Unstable or Testing, and I certainly don't! What a mess. All I
-wanted was the latest version of Python! Some of the guys I work with like Arch.
-I don't _really_ want to be the "btw I use arch" guy, but what the heck? I
-figured I'd give it a shot.
+wanted was the latest version of Python! Some of the guys I work with have been
+singing the praises of Arch. I don't _really_ want to be the "btw I use arch"
+guy, but what the heck? I figured I'd give it a shot.
 
 Initial installation was a bit less do-it-in-my-sleep-easy than, say, Ubuntu or
 Debian, but after running through it once or twice, I felt like I really
