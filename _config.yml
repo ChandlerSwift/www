@@ -7,6 +7,8 @@ paginate: 10
 paginate_path: "/archive/page:num/"
 include:
     - .well-known
+exclude:
+    - _drafts/personal
 collections:
     projects:
         output: true
