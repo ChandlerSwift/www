@@ -103,10 +103,10 @@ Here are some more examples[^generated-with]:
     <img alt="another visualiztion" width="360" src="/images/meta-tic-tac-toe/anim-4.svg">
 </div>
 
-[^generated-with]: These examples were all generated using short Python script,
-    which is [available here](/images/meta-tic-tac-toe/generate.py). The script
-    should support arbitrary nesting with maybe minor tweaks, but the SVG files
-    get large pretty quickly!
+[^generated-with]: These examples were all generated using a short Python script
+    [available here](https://github.com/ChandlerSwift/www/blob/master/images/meta-tic-tac-toe/generate.py).
+    The script should support arbitrary nesting with maybe minor tweaks, but the
+    SVG files get large pretty quickly!
 
     I had initially tried using Inkscape to generate these, but I had to do some
     manual editing of the SVG files, and Inkscape doesn't do a very nice job of
@@ -147,3 +147,7 @@ I haven't played enough games to work out if there are odd implications of this.
 If anybody else has been playing by these (or different!) rulesets,
 [let me know](mailto:chandler@chandlerswift.com)! I'd enjoy hearing about your
 games, and whether or not you've liked the ruleset!
+
+<div class="thanks">
+    Thanks to Jeff and Isaac for reviewing a draft of this post.
+</div>
