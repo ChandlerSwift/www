@@ -10,6 +10,7 @@ RUN gem install \
 
 VOLUME /src
 
+USER 1000:1000
+
 WORKDIR /src
-COPY . .
 ENTRYPOINT ["jekyll", "serve"]
