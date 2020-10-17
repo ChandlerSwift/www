@@ -101,7 +101,7 @@ English, but the text that isn't included in stock Android looks like it hasn't
 been proofread by a native English-speaking proofreader[^proofread]---lots of
 phrases like "Please waiting for update..." or "No notification" rather than 
 "No notifications". It's running an ancient version of Android, last patched in
-2017, and with a 3.19.x Linux kernel. The apps' support for hardware is good
+2017, and with a 3.18.x Linux kernel. The apps' support for hardware is good
 (camera, accelerometer, etc. all work), with the exception of the display: apps
 made for a square display haven't been modified, so important buttons are
 offscreen.
@@ -119,12 +119,63 @@ of the visible area. Other apps are (mostly) better, but suffer from their own
 localization, discoverability, and functionality issues. (The Contacts app, for
 example, seemed prone to random crashes.)
 
-<!-- for posterity:
-ffmpeg -i test2.mp4 -i frame.png -filter_complex "overlay=0:0" -ss 0.1 -t 60 -async 1 -vcodec libx265 -crf 30 ui-demo.mp4
--->
+{% comment %}
+for posterity:
+x264 doesn't work in new Chrome apparently (but does in Edge?). Turns out now
+AV1 is supported everywhere but Firefox on Android, and I'll take that hit
+(even though I use Firefox on Android!). Plus compression is quite a bit better.
+I didn't really notice a significant difference (except in fast moving subtle
+shading changes) between even the best and the worst, so I ended up going with
+the smallest:
+-rw-r--r-- 1 chandler chandler 732K Oct 16 14:00 ui-demo-AV1-q30.webm
+-rw-r--r-- 1 chandler chandler 701K Oct 16 14:00 ui-demo-AV1-q31.webm
+-rw-r--r-- 1 chandler chandler 674K Oct 16 13:59 ui-demo-AV1-q32.webm
+-rw-r--r-- 1 chandler chandler 642K Oct 16 13:59 ui-demo-AV1-q33.webm
+-rw-r--r-- 1 chandler chandler 619K Oct 16 13:59 ui-demo-AV1-q34.webm
+-rw-r--r-- 1 chandler chandler 593K Oct 16 13:59 ui-demo-AV1-q35.webm
+-rw-r--r-- 1 chandler chandler 572K Oct 16 13:59 ui-demo-AV1-q36.webm
+-rw-r--r-- 1 chandler chandler 549K Oct 16 14:18 ui-demo-AV1-q37.webm
+-rw-r--r-- 1 chandler chandler 529K Oct 16 13:59 ui-demo-AV1-q38.webm
+-rw-r--r-- 1 chandler chandler 508K Oct 16 13:59 ui-demo-AV1-q39.webm
+-rw-r--r-- 1 chandler chandler 490K Oct 16 14:18 ui-demo-AV1-q40.webm
+-rw-r--r-- 1 chandler chandler 472K Oct 16 14:18 ui-demo-AV1-q41.webm
+-rw-r--r-- 1 chandler chandler 454K Oct 16 14:18 ui-demo-AV1-q42.webm
+-rw-r--r-- 1 chandler chandler 436K Oct 16 14:18 ui-demo-AV1-q43.webm
+-rw-r--r-- 1 chandler chandler 421K Oct 16 14:17 ui-demo-AV1-q44.webm
+-rw-r--r-- 1 chandler chandler 405K Oct 16 14:38 ui-demo-AV1-q45.webm
+-rw-r--r-- 1 chandler chandler 389K Oct 16 14:37 ui-demo-AV1-q46.webm
+-rw-r--r-- 1 chandler chandler 378K Oct 16 14:37 ui-demo-AV1-q47.webm
+-rw-r--r-- 1 chandler chandler 367K Oct 16 14:37 ui-demo-AV1-q48.webm
+-rw-r--r-- 1 chandler chandler 355K Oct 16 14:37 ui-demo-AV1-q49.webm
+-rw-r--r-- 1 chandler chandler 344K Oct 16 14:37 ui-demo-AV1-q50.webm
+-rw-r--r-- 1 chandler chandler 333K Oct 16 14:37 ui-demo-AV1-q51.webm
+-rw-r--r-- 1 chandler chandler 323K Oct 16 14:37 ui-demo-AV1-q52.webm
+-rw-r--r-- 1 chandler chandler 313K Oct 16 14:37 ui-demo-AV1-q53.webm
+-rw-r--r-- 1 chandler chandler 303K Oct 16 14:37 ui-demo-AV1-q54.webm
+-rw-r--r-- 1 chandler chandler 294K Oct 16 14:37 ui-demo-AV1-q55.webm
+-rw-r--r-- 1 chandler chandler 282K Oct 16 14:37 ui-demo-AV1-q56.webm
+-rw-r--r-- 1 chandler chandler 274K Oct 16 14:37 ui-demo-AV1-q57.webm
+-rw-r--r-- 1 chandler chandler 263K Oct 16 14:37 ui-demo-AV1-q58.webm
+-rw-r--r-- 1 chandler chandler 252K Oct 16 14:37 ui-demo-AV1-q59.webm
+-rw-r--r-- 1 chandler chandler 241K Oct 16 14:36 ui-demo-AV1-q60.webm
+
+Single:
+ffmpeg -i test2.mp4 -i frame.png -filter_complex "overlay=0:0" -ss 0.1 -t 60 -c:v libaom-av1 -crf 60 -b:v 0 ui-demo.mkv
+
+Batch mode for quality testing:
+for i in {30..60}; do
+  ffmpeg -i test2.mp4 \
+         -i frame.png -filter_complex "overlay=0:0" \
+         -ss 0.1 -t 60 -async 1 \
+         -c:v libaom-av1 -crf $i -b:v 0 \
+         ui-demo-AV1-q$i.mkv \
+         -nostdin -hide_banner -nostats -loglevel panic &
+done
+{% endcomment %}
 <video controls height="300" style="display: block; margin: auto; padding: 20px;">
-    <source src="/images/smartwatches/ui-demo.mp4" type="video/mp4">
+    <source src="/images/smartwatches/ui-demo.webm" type="video/webm">
 </video>
+
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
     <img alt="About the watch (screen 1)" width="250" src="/images/smartwatches/settings-1.png">
     <img alt="About the watch (screen 2)" width="250" src="/images/smartwatches/settings-2.png">
