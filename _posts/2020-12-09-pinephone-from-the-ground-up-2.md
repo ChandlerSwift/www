@@ -1,5 +1,5 @@
 ---
-title: "Pinephone software from the ground up, part 2"
+title: "PinePhone software from the ground up, part 2"
 layout: post
 tags: pinephone
 include_syntax_styles: true
