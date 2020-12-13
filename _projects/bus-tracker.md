@@ -14,7 +14,7 @@ for the duration of my time in Duluth, so there were several frequent buses that
 would take me directly to anywhere I'd frequently go.
 
 The [Duluth Transit Authority](https://www.duluthtransit.com/) clearly puts
-effort into making helpful information available online---id anyone from the
+effort into making helpful information available online---if anyone from the
 DTA is reading this, please give whatever web dev you hired on during Summer
 2019 a raise!---and it's not lost on me. However, the 60 seconds it takes to
 pull out a phone and go to
