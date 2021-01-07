@@ -7,7 +7,7 @@ regenerate: true
 <h1>Chandler Swift</h1>
 <p id="nav-links">
   <strong><a href="https://chandlerswift.com/">Home</a></strong> |
-  <a href="https://edenprairie.chandlerswift.com/">Eden Prairie, MN</a>
+  <a href="https://home.chandlerswift.com/">Burnsville, MN</a>
 </p>
 <hr class="separator">
 
