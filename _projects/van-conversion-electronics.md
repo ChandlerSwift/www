@@ -9,8 +9,6 @@ excerpt: In which I help <a href="https://isaacswift.com/">my brother</a> to
 date: 2021-01-08
 ---
 
-<!-- TODO: www.amazon.com => smile.amazon.com -->
-
 My brother Isaac bought a 2004 Ford Econoline van and converted it into a
 camper.
 [![on its maiden voyage](/images/van-conversion/maiden-voyage-sm.jpg)](/images/van-conversion/maiden-voyage.jpg)
@@ -36,7 +34,7 @@ the engine) daily, so he doesn't need more than a day's worth of battery power.
 This also takes solar panels out of the equation. Power needs are generally
 pretty minimal: lights, a vent fan[^fan], and charging for his phone and laptop.
 
-[^fan]: He's using a [Maxair 00-04000k](https://www.amazon.com/dp/B0050EEO94),
+[^fan]: He's using a [Maxair 00-04000k](https://smile.amazon.com/dp/B0050EEO94),
     which seems to work pretty well. I didn't really do anything for this other
     than to hook it up to power, so I won't go into much detail here.
 
@@ -117,7 +115,7 @@ be replaced or bypassed down the road[^heh].
 
 | Component | Quantity | Cost Each | Total |
 |-|-|-|-|
-| [5 meter LED Strips](https://www.amazon.com/gp/product/B07G81V5DK) | 2 | $14 | $28 |
+| [5 meter LED Strips](https://smile.amazon.com/gp/product/B07G81V5DK) | 2 | $14 | $28 |
 | LED Dimmer | 1 | on hand | -- |
 
 ### Outlets
@@ -125,7 +123,7 @@ be replaced or bypassed down the road[^heh].
 For power, we bought a MEAN WELL 400W inverter. The cheapest inverter that
 Digikey carried was a 200W MEAN WELL model for $131, but if the $400 model is
 only $6 more, it seems to be worth the upgrade for the flexibility---now he can
-make [waffles](https://www.amazon.com/dp/B010TCP3SC)! The idle drain doesn't
+make [waffles](https://smile.amazon.com/dp/B010TCP3SC)! The idle drain doesn't
 seem to be any different (both draw 15W); in fact, the models seem nearly
 identical, except that the 400W model has a fan, where the 200W model is
 passively cooled.
@@ -174,9 +172,9 @@ noise. As with the 120V outlets, there's one in the front and one in the back.
 | Component | Quantity | Cost Each | Total |
 |-|-|-|-|
 | [Meanwell TS-400 Inverter](https://www.digikey.com/en/products/detail/mean-well-usa-inc/TS-400-112A/7707170) | 1 | $155 shipped | $155 |
-| [12V outlets (2pk)](https://www.amazon.com/gp/product/B07BQ1JYTX) | 1 | $11 | $11 |
+| [12V outlets (2pk)](https://smile.amazon.com/gp/product/B07BQ1JYTX) | 1 | $11 | $11 |
 | GFCI outlet | 1 | $10 | $10 |
-| [120V outlets](https://www.amazon.com/gp/product/B07FD423NB) | 2 | $13 | $26 |
+| [120V outlets](https://smile.amazon.com/gp/product/B07FD423NB) | 2 | $13 | $26 |
 
 ### Power Distribution
 Thankfully, one of the things I was least looking forward to doing was already
@@ -230,10 +228,10 @@ neither purchased nor installed at the time of this picture.
 
 | Component | Quantity | Cost Each | Total |
 |-|-|-|-|
-| [Latching relay](https://www.amazon.com/gp/product/B072N8NYN2) | 1 | $49 | $49 |
-| [Fuse block](https://www.amazon.com/gp/product/B07DYT2TVS) | 1 | $14 | $28 |
-| [120A charging relay](https://www.amazon.com/gp/product/B01N1IEWCU) | 1 | $12 | $12 |
-| [Fuse tap](https://www.amazon.com/gp/product/B0827L4HH9) | 1 | $6 | $6 |
+| [Latching relay](https://smile.amazon.com/gp/product/B072N8NYN2) | 1 | $49 | $49 |
+| [Fuse block](https://smile.amazon.com/gp/product/B07DYT2TVS) | 1 | $14 | $28 |
+| [120A charging relay](https://smile.amazon.com/gp/product/B01N1IEWCU) | 1 | $12 | $12 |
+| [Fuse tap](https://smile.amazon.com/gp/product/B0827L4HH9) | 1 | $6 | $6 |
 
 
 ### Control panel
@@ -270,8 +268,8 @@ cabinet under the counter.
 
 | Component | Quantity | Cost Each | Total |
 |-|-|-|-|
-| [DPDT Switch for master](https://www.amazon.com/gp/product/B0012ZE8IC) | 1 | $3 | $3 |
-| [SPST Switches](https://www.amazon.com/gp/product/B00004WLK5) | 4 | $4 | $16 |
+| [DPDT Switch for master](https://smile.amazon.com/gp/product/B0012ZE8IC) | 1 | $3 | $3 |
+| [SPST Switches](https://smile.amazon.com/gp/product/B00004WLK5) | 4 | $4 | $16 |
 | 3D printed parts | 2 | $2 of filament | $4 |
 | [Aluminum for faceplate](https://www.menards.com/main/p-1444432419379.htm) | <1/4 sheet | $10 | $2 |
 
@@ -285,18 +283,18 @@ gets purchased).
 
 | Component | Quantity | Cost Each | Total |
 |-|-|-|-|
-| [5 meter LED Strips](https://www.amazon.com/gp/product/B07G81V5DK) | 2 | $14 | $28 |
+| [5 meter LED Strips](https://smile.amazon.com/gp/product/B07G81V5DK) | 2 | $14 | $28 |
 | LED Dimmer | 1 | on hand | -- |
 | [Meanwell TS-400 Inverter](https://www.digikey.com/en/products/detail/mean-well-usa-inc/TS-400-112A/7707170) | 1 | $155 shipped | $155 |
-| [12V outlets (2pk)](https://www.amazon.com/gp/product/B07BQ1JYTX) | 1 | $11 | $11 |
+| [12V outlets (2pk)](https://smile.amazon.com/gp/product/B07BQ1JYTX) | 1 | $11 | $11 |
 | GFCI outlet | 1 | $10 | $10 |
-| [120V outlets](https://www.amazon.com/gp/product/B07FD423NB) | 2 | $13 | $26 |
-| [Latching relay](https://www.amazon.com/gp/product/B072N8NYN2) | 1 | $49 | $49 |
-| [Fuse block](https://www.amazon.com/gp/product/B07DYT2TVS) | 1 | $14 | $28 |
-| [120A charging relay](https://www.amazon.com/gp/product/B01N1IEWCU) | 1 | $12 | $12 |
-| [Fuse tap](https://www.amazon.com/gp/product/B0827L4HH9) | 1 | $6 | $6 |
-| [DPDT Switch for master](https://www.amazon.com/gp/product/B0012ZE8IC) | 1 | $3 | $3 |
-| [SPST Switches](https://www.amazon.com/gp/product/B00004WLK5) | 4 | $4 | $16 |
+| [120V outlets](https://smile.amazon.com/gp/product/B07FD423NB) | 2 | $13 | $26 |
+| [Latching relay](https://smile.amazon.com/gp/product/B072N8NYN2) | 1 | $49 | $49 |
+| [Fuse block](https://smile.amazon.com/gp/product/B07DYT2TVS) | 1 | $14 | $28 |
+| [120A charging relay](https://smile.amazon.com/gp/product/B01N1IEWCU) | 1 | $12 | $12 |
+| [Fuse tap](https://smile.amazon.com/gp/product/B0827L4HH9) | 1 | $6 | $6 |
+| [DPDT Switch for master](https://smile.amazon.com/gp/product/B0012ZE8IC) | 1 | $3 | $3 |
+| [SPST Switches](https://smile.amazon.com/gp/product/B00004WLK5) | 4 | $4 | $16 |
 | 3D printed parts | 2 | $2 of filament | $4 |
 | [Aluminum for faceplate](https://www.menards.com/main/p-1444432419379.htm) | <1/4 sheet | $10 | $2 |
 | | | **Total:** | $350 |
