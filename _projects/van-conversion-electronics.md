@@ -1,7 +1,6 @@
 ---
 layout: project
 title: Van Conversion Electronics
-include_syntax_styles: true
 include_stl_viewer: true
 excerpt: In which I help <a href="https://isaacswift.com/">my brother</a> to
     add an electrical system to his van conversion project, including lighting,
