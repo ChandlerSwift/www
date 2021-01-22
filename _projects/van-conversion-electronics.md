@@ -9,8 +9,11 @@ excerpt: In which I help <a href="https://isaacswift.com/">my brother</a> to
 date: 2021-01-08
 ---
 
-My brother Isaac bought a 2004 Ford Econoline van and converted it into a
-camper.
+Updated 2020-01-21 to add:
+[Check him out on YouTube](https://www.youtube.com/watch?v=xmgwt-adbrs)!
+
+My brother [Isaac](https://isaacswift.com/) bought a 2004 Ford Econoline van and
+converted it into a camper.
 [![on its maiden voyage](/images/van-conversion/maiden-voyage-sm.jpg)](/images/van-conversion/maiden-voyage.jpg)
 
 Before:
@@ -323,6 +326,8 @@ battery, it'll take a full hour of driving (with no fans, headlights, wipers,
 [^laptop-power-notes]: Say his laptop uses 40W (though this is probably high for
     a non-gaming laptop). The 80% efficient inverter then uses 50W plus its 15W
     quiescent draw, for a total of 65W, or something like 5.5A.
+
+[![wiring-diagram](/images/van-conversion/wiring-diagram.png)](/images/van-conversion/wiring-diagram.png)
 
 More photos are available here:
 [https://photos.app.goo.gl/S572cH4zuhniNh9e9](https://photos.app.goo.gl/S572cH4zuhniNh9e9)
