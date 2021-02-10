@@ -244,3 +244,7 @@ or [MP3](/images/random-eventide/Eventide.mp3).
 Bonus: While looking up information about EVENTIDE, I found that the Thelonious
 Monk Septet has a recording of Abide with Me!
 <iframe src="https://open.spotify.com/embed/track/2QradSkPvUearyo5Z4tVRk" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+Edited 2021-02-09 to add -- Bonus bonus: What's almost as random as
+`random.choice()`? Chickens! (Thanks Jeff!)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WFxDOV6IwHk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
