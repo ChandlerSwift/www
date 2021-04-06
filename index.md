@@ -33,9 +33,10 @@ at [Pilgrim Congregational Church in Duluth, MN](http://pilgrimduluth.org/),
 and another as an accompanist for the [Lake Superior Youth Chorus](https://www.lsyouthchorus.org/).
 When I'm in Duluth, I often play for [Jazz at Blush](https://www.facebook.com/JazzatBlush)
 on Monday nights (and if you play an instrument, please come join us!).
-I especially enjoy playing in small ensembles
+I especially enjoy playing in small
+[ensembles](https://youtu.be/rxqeobkiNgg?t=482)
 [and](https://www.youtube.com/watch?v=R9MqV2G2XAE)
-[with](https://youtu.be/rxqeobkiNgg?t=482)
+[with](https://www.youtube.com/watch?v=s3Io31XU1k8&t=6s)
 [other](https://www.youtube.com/watch?v=cgygq_R-RhY)
 [people](https://www.youtube.com/watch?v=Gs4GqA0v690)
 as much as I can.
