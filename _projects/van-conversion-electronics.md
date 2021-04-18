@@ -124,7 +124,7 @@ be replaced or bypassed down the road[^heh].
 ### Outlets
 
 For power, we bought a MEAN WELL 400W inverter. The cheapest inverter that
-Digikey carried was a 200W MEAN WELL model for $131, but if the $400 model is
+Digikey carried was a 200W MEAN WELL model for $131, but if the 400W model is
 only $6 more, it seems to be worth the upgrade for the flexibility---now he can
 make [waffles](https://smile.amazon.com/dp/B010TCP3SC)! The idle drain doesn't
 seem to be any different (both draw 15W); in fact, the models seem nearly
