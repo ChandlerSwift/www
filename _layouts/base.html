@@ -175,6 +175,17 @@
 	.light a:hover {
 		color: #00F;
 	}
+
+	details {
+		padding: 20px;
+	}
+	details:not([open]):hover {
+		cursor: pointer;
+		background-color: lightgray;
+	}
+	details[open] {
+		border: 1px solid lightgray;
+	}
 </style>
 {% if page.include_syntax_styles %}
 <link rel="stylesheet" type="text/css" href="/css/syntax.css">
