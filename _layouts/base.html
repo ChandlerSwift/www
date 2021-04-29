@@ -91,6 +91,12 @@
 		margin-right: 10px;
 	}
 
+	p.date {
+		margin-top: -15px;
+		opacity: 0.6; /* If I set color instead, it wouldn't affect the links */
+		font-style: italic;
+	}
+
 	.pull-right {
 		float: right;
 	}
@@ -179,12 +185,24 @@
 	details {
 		padding: 20px;
 	}
-	details:not([open]):hover {
+	details summary {
+		/* The negative margin here is kind of ugly, but we need padding for the
+		   content of the parent details element, and also padding for the hover
+		   on the summary here, but we don't want double padding, so we subtract
+		   the parent's margin. */
+		margin: -20px;
+		padding: 20px;
+	}
+	details summary:hover {
 		cursor: pointer;
 		background-color: lightgray;
 	}
 	details[open] {
 		border: 1px solid lightgray;
+	}
+	details[open] summary {
+		background-color: lightgray;
+		margin-bottom: 20px;
 	}
 </style>
 {% if page.include_syntax_styles %}
