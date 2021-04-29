@@ -1,12 +1,7 @@
 FROM ruby:latest
 
-RUN gem install \
-  github-pages \
-  jekyll \
-  jekyll-paginate \
-  jekyll-seo-tag \
-  kramdown \
-  rouge
+ADD Gemfile .
+RUN bundle install
 
 VOLUME /src
 
