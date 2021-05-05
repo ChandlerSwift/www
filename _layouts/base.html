@@ -15,6 +15,7 @@
 		max-width: 1200px;
 		font-family: sans-serif;
 		display: grid;
+		line-height: 1.5; /* https://developer.mozilla.org/en-US/docs/Web/CSS/line-height#accessibility_concerns */
 	}
 
 	#nav-links {
@@ -203,6 +204,13 @@
 	details[open] summary {
 		background-color: lightgray;
 		margin-bottom: 20px;
+	}
+
+	/* https://css-tricks.com/snippets/css/prevent-superscripts-and-subscripts-from-affecting-line-height/ */
+	sup {
+		vertical-align: baseline;
+		position: relative;
+		top: -0.4em;
 	}
 </style>
 {% if page.include_syntax_styles %}
