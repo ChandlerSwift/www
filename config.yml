@@ -1,0 +1,5 @@
+title: Chandler Swift's Blog
+paginate: 10
+paginate_path: "archive"
+ignoreFiles:
+    - _drafts/personal
