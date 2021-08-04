@@ -1,13 +1,13 @@
 ---
 layout: base
 ---
-<h2>{{ page.title }}</h2>
+<h2>{{ .Title }}</h2>
 <p class="date">
-	{% if page.date %}Published {{ page.date | date: "%B %d, %Y" }} on <a href="/">Chandler Swift's Blog</a>{% endif %}
+	{% if .Date %}Published {{ .Date.Format "January 2, 2006" }} on <a href="/">Chandler Swift's Blog</a>{% endif %}
 </p>
 <hr class="separator">
 <article>
-	{{ content }}
+	{{ .Content }}
 </article>
 <hr class="separator">
 <p class="light">

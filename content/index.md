@@ -51,7 +51,7 @@ don't have as much time for it as I might like. I appreciate
 
 <hr class="separator">
 
-{% if site.posts.size > 0 %}
+{% if .Site.RegularPages.Count > 0 %}
 ## Blog
 <div class="media">
 {% for post in site.posts limit:3 %}

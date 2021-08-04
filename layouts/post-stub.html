@@ -1,16 +1,10 @@
-<div class="post-stub">
+{{/* <div class="post-stub">
     <h3>
       <span class="date">
          {{ include.post.date | date: "%b %Y" }}
       </span>
       <span class="title">
-        {% if include.post._url %}
-        <a href="{{ include.post._url }}" target="_blank">
-          {{ include.post.title }}
-        </a>
-        {% else %}
-        <a href="{{ include.post.url }}">{{ include.post.title }}</a>
-        {% endif %}
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
       </span>
     </h3>
     {% if include.post._url or include.no_excerpt %}
@@ -18,3 +12,4 @@
     {{ include.post.excerpt }}
     {% endif %}
 </div>
+ */}}

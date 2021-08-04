@@ -2,11 +2,11 @@
 layout: base
 ---
 <h2>
-	{% if page.date %}<span class="date">{{ page.date | date: "%b %Y" }}</span>{% endif %}
-	<a href="{{ page.url }}">{{ page.title }}</a>
+	{% if .Date %}<span class="date">{{ .Date.Format "Jan 2006" }}</span>{% endif %}
+	<a href="{{ .Permalink }}">{{ .Title }}</a>
 </h2>
 <article>
-	{{ content }}
+	{{ .Content }}
 </article>
 <hr class="separator">
 <p class="light">
