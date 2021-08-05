@@ -1,3 +1,43 @@
-{{ define "main"}}
+{{ define "main" }}
+<h1>Chandler Swift</h1>
+<p id="nav-links">
+  <strong><a href="https://chandlerswift.com/">Home</a></strong> |
+  <a href="https://home.chandlerswift.com/">Burnsville, MN</a>
+</p>
+<hr class="separator">
+
 {{.Content}}
+
+<hr class="separator">
+
+{{ if len (where .Site.RegularPages "Section" "posts") }}
+<h2><a href="/posts/">Blog</a></h2>
+<div class="media">
+{{ range first 5 (where .Site.RegularPages "Section" "posts") }}
+{{ partial "post-stub.html" . }}
+{{ end }}
+</div>
+
+{{ if gt (len (where .Site.RegularPages "Section" "posts")) 15 }}
+<div class="pull-right">
+    <a href="/posts/" class="btn btn-primary">
+        More
+        <span class="icon">
+          <svg height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"/></svg>
+        </span>
+    </a>
+</div>
+<div class="clearfix"></div>
+{{ end }}
+
+<hr class="separator">
+{{ end }}
+
+<h2><a href="/projects/">Projects</a></h2>
+
+<div class="media">
+{{ range (where .Site.RegularPages "Section" "projects") }}
+{{ partial "project-stub.html" . }}
+{{ end }}
+</div>
 {{ end }}
