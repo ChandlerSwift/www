@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Auto-timed Fish Tank Light
-excerpt: In which I build a NTP-syncin' LED-blinkin' fish light timer.
+summary: In which I build a NTP-syncin' LED-blinkin' fish light timer.
 date: 2018-11-30
 ---
 

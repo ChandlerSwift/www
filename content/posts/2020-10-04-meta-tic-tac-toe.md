@@ -1,7 +1,7 @@
 ---
 title: (meta-)*tic-tac-toe
 layout: post
-excerpt: Tic-tac-toe in tic-tac-toe in tic-tac-toe&hellip;how deep can we go?
+summary: Tic-tac-toe in tic-tac-toe in tic-tac-toe&hellip;how deep can we go?
 ---
 
 After a particularly interesting talk at UMD's math club, to fill some left-over

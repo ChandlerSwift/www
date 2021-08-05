@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Listen to your music a new way...alphabetically!
-excerpt: I embarked on a journey to listen to my Spotify library sorted A-to-Z,
+summary: I embarked on a journey to listen to my Spotify library sorted A-to-Z,
     and you should too!
 ---
 
