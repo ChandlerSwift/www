@@ -1,7 +1,7 @@
 ---
 title: Exploring paths for Sudoku variants with Python
 layout: post
-include_syntax_styles: true
+IncludeSyntaxStyles: true
 notes: |
     Created with https://swaroopg92.github.io/penpa-edit/ -- create puzzle, use
     Firefox's screenshot function (the export function does some dithering that)

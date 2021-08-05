@@ -1,7 +1,7 @@
 ---
 title: Setting up an ODROID-HC4 as a NAS
 layout: post
-include_syntax_styles: yes
+IncludeSyntaxStyles: yes
 ---
 
 I bought a new NAS, a [Hardkernel

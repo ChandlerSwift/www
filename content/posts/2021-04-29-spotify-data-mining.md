@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data mining my Spotify history
-include_syntax_styles: yes
+IncludeSyntaxStyles: yes
 ---
 
 I have a few songs I listen to very frequently. Enough that I wonder, "Does the

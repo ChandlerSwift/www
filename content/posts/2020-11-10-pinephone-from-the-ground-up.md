@@ -2,7 +2,7 @@
 title: "Phone a Month 4?: Setting up PinePhone software from the ground up"
 layout: post
 tags: pinephone
-include_syntax_styles: true
+IncludeSyntaxStyles: true
 ---
 
 I never actually ran anything new on my phone this month. Instead, I've been

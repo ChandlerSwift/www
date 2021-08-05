@@ -2,7 +2,7 @@
 title: "PinePhone software from the ground up, part 2"
 layout: post
 tags: pinephone
-include_syntax_styles: true
+IncludeSyntaxStyles: true
 ---
 
 <style>code { font-size: 1.3em; line-height: 1.4em; }</style>

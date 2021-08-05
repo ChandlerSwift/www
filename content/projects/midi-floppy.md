@@ -2,7 +2,7 @@
 layout: project
 title: Using a 5.25" Floppy as a MIDI instrument
 date: 2018-03-17
-include_syntax_styles: true
+IncludeSyntaxStyles: true
 excerpt: In which Jeff and I get hopelessly distracted from our original goal
   and wind up making music from a 5.25" floppy drive.
 ---

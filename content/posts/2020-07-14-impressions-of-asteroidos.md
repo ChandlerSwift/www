@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Impressions of AsteroidOS
-include_syntax_styles: true
+IncludeSyntaxStyles: true
 ---
 
 A solid two days in,

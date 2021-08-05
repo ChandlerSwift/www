@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A random accompaniment on EVENTIDE
-include_syntax_styles: yes
+IncludeSyntaxStyles: yes
 ---
 
 How good can we make a random accompaniment sound? I was playing with

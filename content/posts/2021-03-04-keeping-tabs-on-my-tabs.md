@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Keeping Tabs on my Tabs &ndash; a quick Python hack
-include_syntax_styles: true
+IncludeSyntaxStyles: true
 excerpt: I'm a bit of a tab hoarder. Firefox, thankfully, is pretty good about
     not using excessive resources for infrequently-accessed tabs, but when my
     <a href="https://addons.mozilla.org/en-US/firefox/addon/tab-counter-webext/">Tab Counter extension</a>

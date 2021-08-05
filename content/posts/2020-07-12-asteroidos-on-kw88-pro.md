@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Installing AsteroidOS on the Kingwear KW88 Pro
-include_syntax_styles: true
+IncludeSyntaxStyles: true
 ---
 
 I recently bought a Kingwear KW88 Pro,

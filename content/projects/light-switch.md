@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "ESP8266 Light Switch: A Few Revisions"
-include_syntax_styles: true
+IncludeSyntaxStyles: true
 excerpt: In which I attempt to explain the many revisions of my ESP8266 light
     switch, as well as some of the cooler ways to control it.
 date: 2017-07-04

@@ -2,7 +2,7 @@
 title: Notes on Building AsteroidOS
 layout: post
 tags: asteroidos
-include_syntax_styles: true
+IncludeSyntaxStyles: true
 ---
 
 Building AsteroidOS isn't terribly difficult, and reasonably well documented,
