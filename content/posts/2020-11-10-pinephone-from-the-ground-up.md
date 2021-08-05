@@ -10,6 +10,8 @@ tinkering with the PinePhone. Instead of the usual update post, here's some info
 on how to install and boot the most basic possible Linux installation for the
 PinePhone.
 
+<!--more-->
+
 In my defense, I _did_ make quite a few attempts to get something (anything!)
 working on the PinePhone, but after trying up-to-date versions of Ubuntu Touch,
 PostmarketOS, and Mobian, I found major dealbreakers in each. I can't remember

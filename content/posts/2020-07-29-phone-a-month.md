@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "A phone a month for a year: Intro; Moto G7/Stock Android"
-excerpt_separator: <!--more-->
 ---
 
 Right off the bat, I'll concede: I'm not buying 12 new pieces of phone

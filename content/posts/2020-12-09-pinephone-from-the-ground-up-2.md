@@ -11,6 +11,8 @@ A few weeks ago, I
 and a bit of other software to run on the PinePhone. Today, let's look at some
 next steps.
 
+<!--more-->
+
 First, let's talk about the init process. When the kernel finishes its
 initialization process, it launches a single userspace program. Typically, the
 kernel will attempt to run `/init`

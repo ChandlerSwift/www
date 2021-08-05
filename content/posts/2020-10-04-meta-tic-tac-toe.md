@@ -11,6 +11,8 @@ a few games on the chalkboard, I was really interested, and spent a few weeks
 asking anyone who would listen to play a game or three. I can't say I was ever
 _good_ at it, but it was certainly fun!
 
+<!--more-->
+
 [^name]: It was introduced as Super Tic-Tac-Toe, a name I tend to like better,
     but Meta* Tic-Tac-Toe seems to capture the recursive nature of what we're
     trying to do here more effectively.

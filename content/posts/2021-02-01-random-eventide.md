@@ -13,6 +13,8 @@ scale, but suspected my "randomess" of playing wasn't particularly good. But
 what _does_ have good randomness? Python! (If you don't want to read the code,
 just [check out the results at the bottom]({% post_url 2021-02-01-random-eventide %}#results).)
 
+<!--more-->
+
 ```python
 #!/usr/bin/python
 

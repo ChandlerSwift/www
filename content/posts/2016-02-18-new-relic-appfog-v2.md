@@ -8,6 +8,8 @@ However, their documentation leaves a bit to be desired. Don’t be dissuaded:
 the setup process is almost comically simple. Here are the steps to set up
 AppFog with New Relic:
 
+<!--more-->
+
  * First, sign up for New Relic (if you haven’t already) at
    [newrelic.com/appfog][https://newrelic.com/appfog].
  * Go to to the “APM” (*A*pplication *P*erformance *M*onitoring) section to

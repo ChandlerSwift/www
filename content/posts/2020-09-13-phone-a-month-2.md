@@ -7,6 +7,8 @@ I'm continuing my open-source phone exploration I started
 [last month]({% post_url 2020-07-29-phone-a-month %}). This month's updates are
 both a bit late and a bit light, with quite a few false starts and dead ends.
 
+<!--more-->
+
 I got my PinePhone last month, but after a day or two of tinkering wasn't able
 to place calls on it, so I stuck with Android on the G7 Power. I'm definitely
 not writing this one off for long, as development is rapid and claims are that

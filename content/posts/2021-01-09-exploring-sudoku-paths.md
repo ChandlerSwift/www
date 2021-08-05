@@ -23,6 +23,8 @@ requires that its snake alternates successive even digits and odd digits, is
 unambiguous, and visits at least one cell in every box (as well as, of course,
 being a valid sudoku puzzle!).
 
+<!--more-->
+
 Let's talk about those rules in a bit more depth:
 
  * **Snake**: A snake is a one-wide orthogonally connected path. Much like in

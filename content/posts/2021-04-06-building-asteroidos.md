@@ -8,6 +8,8 @@ IncludeSyntaxStyles: true
 Building AsteroidOS isn't terribly difficult, and reasonably well documented,
 but there are a handful of gotchas I ran into during the process.
 
+<!--more-->
+
 ### Build with one thread at a time
 
 The OpenEmbedded build system, which AsteroidOS is based on, seems to have

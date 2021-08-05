@@ -12,6 +12,8 @@ long that'll last!) and it scratches every bit of my tinkerer's itch. It's
 absolutely thrilling that I can `ssh` in and get a root shell, and that I can
 customize or rewrite anything I want to change!
 
+<!--more-->
+
 As an introduction into Qt, in which most of the display and apps are written, I
 figured I'd try my hand at modifying a watchface. AsteroidOS has
 [good documentation](https://asteroidos.org/wiki/watchfaces-creation/) on the

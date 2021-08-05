@@ -14,6 +14,8 @@ total have been played: they should add up quickly! There do exist
 date), but as far as I could tell there wasn’t a good option for a piano
 keyboard.
 
+<!--more-->
+
 This should, in theory, be relatively simple. Nearly all electronic pianos (and
 [such things](/images/piano-heatmap/piano-shaped-objects.jpg)) have a MIDI
 output connection, which means all that has to be done is to plug this into a

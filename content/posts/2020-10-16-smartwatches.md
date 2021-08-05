@@ -6,6 +6,8 @@ tags: asteroidos
 
 I've owned two smartwatches, across 3 OS's. They're all terrible. Here's why.
 
+<!--more-->
+
 ### Samsung Galaxy Watch Active
 
 In June 2019 I bought a Samsung Galaxy Watch Active. It's a very slick device,

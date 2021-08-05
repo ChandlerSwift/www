@@ -8,6 +8,8 @@ A third post in a series
 [part 2]({% post_url 2020-07-19-piano-heatmap-part-2 %})) on exploring what keys
 of a piano I use the most. 
 
+<!--more-->
+
 I'm a sucker for data. Doesn't really matter about what---lately, election
 polling has been interesting to watch---but I really like seeing numbers about
 things I do. Music is one interesting thing, and I like that I can see

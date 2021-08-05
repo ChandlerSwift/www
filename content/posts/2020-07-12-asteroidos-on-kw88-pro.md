@@ -11,6 +11,8 @@ something different, I decided to install
 straightforward process, there are a few issues that I ran into that stumped me
 for a while, that I thought were worth writing down.
 
+<!--more-->
+
 [![AsteroidOS running on the KW88 Pro](/images/installing-asteroidos/asteroidos-sm.jpg)](/images/installing-asteroidos/asteroidos.jpg)
 
 ### SP Flash Tool

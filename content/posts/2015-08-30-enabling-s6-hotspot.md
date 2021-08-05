@@ -9,6 +9,8 @@ create a wireless hotspot. However, there is a simple fix, with very little
 technical knowledge required (taken with gratitude from
 [a post buried on xda-developers](http://forum.xda-developers.com/note-4-sprint/general/native-hotspot-stock-rooted-t2941853)):
 
+<!--more-->
+
 ### Prerequisites
 
 

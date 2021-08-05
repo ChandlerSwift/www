@@ -8,6 +8,8 @@ together a not-quite-working attempt at tracking played keys on a piano. Today,
 I took another shot at what that attempt might look like with a few more years'
 experience in play.
 
+<!--more-->
+
 Here's what I made:
 [chandlerswift.github.io/piano-heatmap/](https://chandlerswift.github.io/piano-heatmap/)
 

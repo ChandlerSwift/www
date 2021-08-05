@@ -8,6 +8,8 @@ Here's another post about the open-source phone exploration I started
 [unofficial LineageOS/microG build](https://forum.xda-developers.com/g7-power/development/unofficial-lineageos4microg-16-0-t4057273)
 (containing no Google apps) to pretty good results. 
 
+<!--more-->
+
 > The fun thing about being with you is that when I call and you don't answer,
 > there are _so many_ reasons it could be.
 >

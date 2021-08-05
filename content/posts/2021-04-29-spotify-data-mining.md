@@ -9,6 +9,8 @@ amount I stream this song have a noticeable effect on the song's popularity?"
 It turns out, yes, there are at least a handful of songs for which that is the
 case.
 
+<!--more-->
+
 First, the main findings:
 
 <style>

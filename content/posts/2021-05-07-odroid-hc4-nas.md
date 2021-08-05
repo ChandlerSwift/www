@@ -10,6 +10,8 @@ upgrade. Before: 6C/12T Xeon processor; After: 4C/4T ARM processor. Before: 12GB
 ECC RAM, After: 4GB RAM. Before: 6 HDD slots/SATA ports; After: 2. But most
 importantly:
 
+<!--more-->
+
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
     <span>Before:
     <img alt="power consumption before: 185W" width=300px src="/images/odroidhc4/power-before.jpg">
