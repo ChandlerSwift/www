@@ -1,9 +1,7 @@
----
-layout: base
----
+{{ define "main" }}
 <h2>{{ .Title }}</h2>
 <p class="date">
-	{% if .Date %}Published {{ .Date.Format "January 2, 2006" }} on <a href="/">Chandler Swift's Blog</a>{% endif %}
+	{{ if .Date }}Published {{ .Date.Format "January 2, 2006" }} on <a href="/">Chandler Swift's Blog</a>{{ end }}
 </p>
 <hr class="separator">
 <article>
@@ -16,3 +14,4 @@ layout: base
 	<a href="mailto:chandler@chandlerswift.com">send me an email</a>
 	and I'd be delighted to hear what you have to say!
 </p>
+{{ end }}

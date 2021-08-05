@@ -1,0 +1,11 @@
+<div class="post-stub">
+    <h3>
+      <span class="date">
+        {{ .Date.Format "Jan 2006" }}
+      </span>
+      <span class="title">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </span>
+    </h3>
+    {{ if .Params.Excerpt }}{{ .Params.Excerpt }}{{ else }}{{ .Summary }}{{ end }}
+</div>

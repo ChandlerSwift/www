@@ -1,8 +1,6 @@
----
-layout: base
----
+{{ define "main" }}
 <h2>
-	{% if .Date %}<span class="date">{{ .Date.Format "Jan 2006" }}</span>{% endif %}
+	{{if .Date}}<span class="date">{{ .Date.Format "Jan 2006" }}</span>{{end}}
 	<a href="{{ .Permalink }}">{{ .Title }}</a>
 </h2>
 <article>
@@ -15,3 +13,4 @@ layout: base
 	<a href="mailto:chandler@chandlerswift.com">send me an email</a>!
 	I'd be delighted to hear what you have to say.
 </p>
+{{ end }}
