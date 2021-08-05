@@ -1,6 +1,7 @@
 title: Chandler Swift's Blog
 baseURL: https://chandlerswift.com/
-pygmentsUseClasses: yes
+
+pygmentsUseClasses: true
 
 ignoreFiles:
   - drafts/personal
@@ -9,6 +10,7 @@ permalinks:
   posts: /:year/:month/:day/:slug
 
 uglyURLs: true
+disablePathToLower: true
 
 markup:
   goldmark:
