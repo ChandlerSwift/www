@@ -1,17 +1,5 @@
----
-layout: page
-title: Home
-regenerate: true
----
-
-<h1>Chandler Swift</h1>
-<p id="nav-links">
-  <strong><a href="https://chandlerswift.com/">Home</a></strong> |
-  <a href="https://home.chandlerswift.com/">Burnsville, MN</a>
-</p>
-<hr class="separator">
-
 ## About
+
 I'm a lifelong hacker (the
 [good kind](http://catb.org/~esr/jargon/html/H/hacker.html)!). My parents
 have a story they like to tell at my expense: At just a few years old, I was
@@ -48,37 +36,3 @@ don't have as much time for it as I might like. I appreciate
 [XKCD](https://xkcd.com/) comics, especially
 [about](https://xkcd.com/1760/)
 [technology](https://xkcd.com/722/).
-
-<hr class="separator">
-
-{% if .Site.RegularPages.Count > 0 %}
-## Blog
-<div class="media">
-{% for post in site.posts limit:3 %}
-{% include post-stub.html post=post %}
-{% endfor %}
-</div>
-
-{% if site.posts.size > 3 %}
-<div class="pull-right">
-    <a href="/archive/" class="btn btn-primary">
-        More
-        <span class="icon">
-          <svg height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"/></svg>
-        </span>
-    </a>
-</div>
-<div class="clearfix"></div>
-{% endif %}
-
-<hr class="separator">
-{% endif %}
-
-## [Projects](/projects.html)
-
-<div class="media">
-{% assign projects = site.projects | sort: 'date' | reverse %}
-{% for project in projects %}
-{% include project-stub.html project=project %}
-{% endfor %}
-</div>
