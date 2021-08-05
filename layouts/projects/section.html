@@ -1,0 +1,9 @@
+{{ define "main" }}
+<h1><a href="{{.Permalink}}">{{.Title}}</a></h1>
+<div class="media">
+    {{ range .Pages.ByPublishDate }}
+    {{ partial "project-stub.html" . }}
+    {{ end }}
+</div>
+<div class="clearfix"></div>
+{{ end }}
