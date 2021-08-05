@@ -1,5 +1,26 @@
 title: Chandler Swift's Blog
-paginate: 10
-paginate_path: "archive"
+baseURL: https://chandlerswift.com/
+pygmentsUseClasses: yes
+
 ignoreFiles:
-    - _drafts/personal
+  - drafts/personal
+
+permalinks:
+  posts: /:year/:month/:day/:slug
+
+uglyURLs: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+frontmatter:
+  date:
+    - :filename
+    - :default
+    - :fileModTime
+  lastmod:
+    - lastmod
+    - :fileModTime
+    - :default
