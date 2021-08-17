@@ -210,7 +210,8 @@ is therefore licensed under the [GPLv3](http://www.gnu.org/licenses/gpl-3.0.html
 If you want to run it yourself, here's my Makefile:
 <details>
 <summary><code>Makefile</code></summary>
-{% highlight make %}
+
+```make
 Eventide.xml:
 	python eventide.py
 
@@ -228,7 +229,8 @@ clean:
 	rm -f Eventide.xml Eventide.mp3 Eventide.pdf Eventide.mscz
 
 all: Eventide.pdf Eventide.mp3 Eventide.mscz
-{% endhighlight %}
+```
+
 </details>
 
 ### Results

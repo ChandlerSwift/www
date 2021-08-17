@@ -121,7 +121,7 @@ of the visible area. Other apps are (mostly) better, but suffer from their own
 localization, discoverability, and functionality issues. (The Contacts app, for
 example, seemed prone to random crashes.)
 
-{% comment %}
+<!--
 for posterity:
 x264 doesn't work in new Chrome apparently (but does in Edge?). Turns out now
 AV1 is supported everywhere but Firefox on Android, and I'll take that hit
@@ -173,7 +173,7 @@ for i in {30..60}; do
          ui-demo-AV1-q$i.mkv \
          -nostdin -hide_banner -nostats -loglevel panic &
 done
-{% endcomment %}
+-->
 <video controls height="300" style="display: block; margin: auto; padding: 20px;">
     <source src="/images/smartwatches/ui-demo.webm" type="video/webm">
 </video>

@@ -5,13 +5,14 @@ tags: pinephone
 IncludeSyntaxStyles: true
 ---
 
-<style>code { font-size: 1.3em; line-height: 1.4em; }</style>
 A few weeks ago, I
 [compiled and installed a Linux kernel]({{< ref 2020-11-10-pinephone-from-the-ground-up >}})
 and a bit of other software to run on the PinePhone. Today, let's look at some
 next steps.
 
 <!--more-->
+
+<style>code { font-size: 1.3em; line-height: 1.4em; }</style>
 
 First, let's talk about the init process. When the kernel finishes its
 initialization process, it launches a single userspace program. Typically, the

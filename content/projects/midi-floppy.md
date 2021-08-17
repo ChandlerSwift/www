@@ -47,7 +47,7 @@ the frequency it was being pulsed. So a plan was born.
 Also available at
 <a href="https://github.com/ChandlerSwift/FloppyMIDI/blob/master/FloppyMIDI-USB.ino">https://github.com/ChandlerSwift/FloppyMIDI/blob/master/FloppyMIDI-USB.ino</a>
 
-{% highlight c++ %}
+```c++
 #include "MIDIUSB.h"
 #include <math.h> // for pow
 #include "list.h"
@@ -173,8 +173,7 @@ void loop () {
   }
 
 }
-
-{% endhighlight %}
+```
 </details>
 
 This uses the
@@ -193,7 +192,7 @@ anybody?)
 Since we use USB, we use [`SendMIDI`](https://github.com/gbevin/SendMIDI) to,
 well, send MIDI to the device to play. Currently, we send single track MIDI to
 play melodies like this recognizable one
-[full res on YouTube](https://www.youtube-nocookie.com/embed/X0uTFquPRs8):
+([full res on YouTube](https://www.youtube-nocookie.com/embed/X0uTFquPRs8)):
 
 <video controls width="480" style="display: block; margin: auto; padding: 20px;">
     <source src="/images/midi-floppy/mary-had-a-little-lamb-480p.mp4" type="video/mp4">

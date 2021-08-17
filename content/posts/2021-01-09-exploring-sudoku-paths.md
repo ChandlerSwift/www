@@ -32,7 +32,7 @@ Let's talk about those rules in a bit more depth:
    (although diagonal adjacency is fine). The one in this puzzle has alternating
    even and odd digits along its length, represented in this post by red and
    blue respectively:
-![a snake matching the above description](data:image/png;base64,
+<img alt="a snake matching the above description" src="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAXwAAAF8CAMAAAD7OfD4AAAASFBMVEX////A4P//o6NfikVeiURA
 k0xZiEFYiEE2jkBEhTVDhTQhgCEggCAfgB8dHR0cHBwbGxsQEBAODxAQDQ0MDhAQCgoJCQkAAAC7
 9TkfAAAEmElEQVR42u3d225URxAF0Jpb7GCkZCIc/v/zIIJICGPAc0G8mrZUWOd4+nSt/dyqbS8d
@@ -56,10 +56,10 @@ l7+MRvjw4cOHDx8+fPjw4cOHDx8+fPjw4cOHDx9+/43w4cOf5W3EY2LUJuKUOJaaFZvUqIjjVLNi
 VLNilxoV8TDVrNg+exux1x3VCo3w4ddshA+/ZiN8+DUb4cOv2Qgffs1G+PBrNsKHX7MRPvyajfDh
 12yED79mI3z4NRvhw6/ZCB9+zUb48Gs2wodfsxE+/JqN8OHXbITfHb5MH/hPpB/8v69CZsj5/a/4
 8mKB31HgNwN/+MBvBv7wgd8M/OEDvxn4wwd+M/CHD/xm4A8f+M3AHz4/AB0L2kBP++2sAAAAAElF
-TkSuQmCC)
+TkSuQmCC">
  * **visits a cell in every box**: The above snake fills this requirement as
    well. The following (shorter) snake does, too:
-![a shorter snake which also visits each box](data:image/png;base64,
+<img alt="a shorter snake which also visits each box" src="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAXwAAAF8CAMAAAD7OfD4AAAATlBMVEX////A4P//o6NPnGFMml5K
 mVtIl1hAk0w5kEQ5j0NEhTVAhTIigSMhgCEggCAfgB8dHR0cHBwbGxsQEBAODxAQDQ0MDhAQCgoJ
 CQkAAAD0Q4fDAAAEaklEQVR42u3d0U4USxiF0X9EHD3CSc7RiL7/w6lBE6MYEIXxxhucIl0hPdpd
@@ -82,7 +82,7 @@ bcTlfhW0r7jq186KKOBHFeHDzyzCh59ZhA8/swgffmYRPvzMInz4mUX48DOL8OFnFuHDzyzCh59Z
 hA8/swgffmYRPvzMInz4mUX48DOL8OFnFuHDzywe/DZi11EZRU/+korw4WcW4cPPLMKHn1mEDz+z
 CB9+ZhE+/MwifPiZRfjwM4vw4WcW4cPPLMKHn1mEDz+zCB9+ZhE+/MwifPiZRfjwM4vw4WcW4S8O
 3+Yf/Hu2HPz/t2UH2O7dPr79scFf0OA3B3/4wW8O/vCD3xz84Qe/OfjDD35z8Icf/ObgDz/4zcEf
-fj8BenbrQA4hsTMAAAAASUVORK5CYII=)
+fj8BenbrQA4hsTMAAAAASUVORK5CYII=">
  * and the big constraint, **is unambiguous**: Given the pattern of even and odd
    digits in the grid, there is exactly one direction the snake could continue
    at any point and still satisfy the parity constraint. To see this happen, we
@@ -94,7 +94,7 @@ fj8BenbrQA4hsTMAAAAASUVORK5CYII=)
 
    For example, suppose that the head of the snake is even, and continues into
    the (odd) cell to its right:
-![sudokus form](data:image/png;base64,
+<img alt="sudokus form" src="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAXwAAAF8CAMAAAD7OfD4AAAAOVBMVEX////A4P//o6NNm19JmFle
 iURYiEEhgCEggCAdHR0cHBwbGxsQEBAODxAQDQ0MDhAQCgoJCQkAAAD2nVmLAAADuUlEQVR42u3d
 22oUQQBF0R4To3gB9f+/MYIIgcnND7AGGumJRe11novesGj6rejTZv9tp80Gg7/84A8Hf/nBHw7+
@@ -113,12 +113,12 @@ swgffrMIH36zCB9+swgffrMIH36zCB9+swgffrMIH36zCB9+swgffrMIfzr8wp8K/RuxXYQPv1mE
 D79ZhA+/WYQPv1mED79ZhA+/WYQPv1mED79ZhA+/WYQPv1mED79ZhA+/WYQPv1mED79ZhA+/WYQP
 v1mED79ZhA+/WXQb0W3EZhE+/GYRPvxmET78ZhE+/GYRPvxmET78ZhE+/GYRPvxmET78ZhE+/GYR
 PvxmET78ZhE+/GYRPvxmET78ZhE+/GYRPvxmEf50+Hb84F/YPPifP2x2hb3+/Bvf3mzwJxr84eAv
-P/jDwV9+8IeDv/zgDwd/+cEfDv7ygz8c/OUHfzj4y+8PfCAVQIawBZcAAAAASUVORK5CYII=)
+P/jDwV9+8IeDv/zgDwd/+cEfDv7ygz8c/OUHfzj4y+8PfCAVQIawBZcAAAAASUVORK5CYII=">
 
    To ensure there's no ambiguity that the snake continues to the right, all of
    the other cells must be invalid for the snake to enter; that is, they must
    all have the same parity as the head:
-![a puzzle fine](data:image/png;base64,
+<img alt="a puzzle fine" src="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAXwAAAF8CAMAAAD7OfD4AAAAOVBMVEX////A4P//o6NNm19JmFle
 iURYiEEhgCEggCAdHR0cHBwbGxsQEBAODxAQDQ0MDhAQCgoJCQkAAAD2nVmLAAADxElEQVR42u3d
 3UoQQQCG4TXNoiyq+79GiwgEf7sARxhCbZz3+Y6HfeFh2bNhTw77bzs5bDD42w/+cPC3H/zh4G8/
@@ -138,12 +138,12 @@ KvRvxHYRPvxmET78ZhE+/GYRPvxmET78ZhE+/GYRPvxmET78ZhE+/GYRPvxmET78ZhE+/GYRPvxm
 ET78ZhE+/GYRPvxmET78ZhE+/GbRbUS3EZtF+PCbRfjwm0X48JtF+PCbRfjwm0X48JtF+PCbRfjw
 m0X48JtF+PCbRfjwm0X48JtF+PCbRfjwm0X48JtF+PCbRfjwm0X4y+Hb8w/+E1sH//OHw15gDz8f
 49urDf5Cgz8c/O0Hfzj42w/+cPC3H/zh4G8/+MPB337wh4O//eAPB3/7/QWeKhVAjuAPNgAAAABJ
-RU5ErkJggg==)
+RU5ErkJggg==">
 
    Now, each box must contain a 1 through 9; that is, four even and five odd
    digits. This one already contains all four even digits, so the unfilled cells
    must be odd:
-![yet you'll need only](data:image/png;base64,
+<img alt="yet you'll need only" src="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAXwAAAF8CAMAAAD7OfD4AAAAM1BMVEX////A4P//o6NNm19JmFle
 iURYiEEhgCEggCAdHR0cHBwbGxsQEBAMDhAQCgoJCQkAAADPLnw0AAADsElEQVR42u3dTU4VQQBG
 0UKQgWhk/6sUY2JUflwARSjMA5u65xtXcl/O6/Ss0mfD/tvOhk0Gf/vBnw7+9oM/HfztB386+NsP
@@ -162,10 +162,10 @@ v1mED79ZhA+/WYQPv1mED79ZhA+/WYQPv1mEfzj8wpcKfRuxXYQPv1mED79ZhA+/WYQPv1mED79Z
 hA+/WYQPv1mED79ZhA+/WYQPv1mED79ZhA+/WYQPv1mED79ZhA+/WYQPv1mED79ZhA+/WXQb0W3E
 ZhE+/GYRPvxmET78ZhE+/GYRPvxmET78ZhE+/GYRPvxmET78ZhE+/GYRPvxmET78ZhE+/GYRPvxm
 ET78ZhE+/GYRPvxmEf7h8O30g//EjoN/9XHYK+zh5jG+vdngH2jwp4O//eBPB3/7wZ8O/vaDPx38
-7Qd/OvjbD/508Lcf/Ongb7+/b+oVQPd5r/gAAAAASUVORK5CYII=)
+7Qd/OvjbD/508Lcf/Ongb7+/b+oVQPd5r/gAAAAASUVORK5CYII=">
 
    The only place the snake can proceed, then, is directly into the second box:
-![a one](data:image/png;base64,
+<img alt="a one" src="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAXwAAAF8CAMAAAD7OfD4AAAANlBMVEX////A4P//o6NfikVeiURZ
 iEFYiEEhgCEggCAdHR0cHBwbGxsQEBAQDQ0MDhAQCgoJCQkAAACNR84eAAADyUlEQVR42u3dUUtU
 QQCG4dGsKC3y///IDAMDM7vXkT3Gbp3mfb7rgXd5OOzdMGfD/tnOhk0Gf/nBnw7+8oM/HfzlB386
@@ -185,11 +185,11 @@ frMIH36zCB9+swgffrMIH36zCB9+swgffrMIH36zCB9+swgffrMIH36zCB9+swgffrMIH36zCH93
 h98swoffLMKH3yzCh98swoffLMKH3yy6jeg2YrMIH36zCB9+swgffrMIH36zCB9+swgffrMIH36z
 CB9+swgffrMIH36zCB9+swgffrMIH36zCB9+swgffrMIH36zCB9+swh/d/h2/MF/YfvBv3w37AR7
 vHmOb39t8Hc0+NPBX37wp4O//OBPB3/5wZ8O/vKDPx385Qd/OvjLD/508Jffb7s4FUBB5F03AAAA
-AElFTkSuQmCC)
+AElFTkSuQmCC">
 
    If we continue to the right, we would need at least five red cells in the top
    middle box (try it out, if you like!) so now we have to move down...
-![through nine](data:image/png;base64,
+<img alt="through nine" src="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAXwAAAF8CAMAAAD7OfD4AAAAQlBMVEX////A4P//o6NPnGFKmVte
 iURYiEFDhTQigSMhgCEggCAfgB8dHR0cHBwbGxsQEBAODxAQDQ0MDhAQCgoJCQkAAABkBAFnAAAD
 +ElEQVR42u3dzWpUWRhG4Z2uxE7TdPuD3v8FGlFBUYxRR07MjjlKlTns9bzjj6zwUNQkbHI27MF2
@@ -210,12 +210,12 @@ Dr/wnwr9b8R2ET78ZhE+/GYRPvxmET78ZhE+/GYRPvxmET78ZhE+/GYRPvxmET78ZhE+/GYRPvxm
 ET78ZhE+/GYRPvxmET78ZhE+/GYRPvxm0WtErxGbRfjwm0X48JtF+PCbRfjwm0X48JtF+PCbRfjw
 m0X48JtF+PCbRfjwm0X48JtF+PCbRfjwm0X48JtF+PCbRfjwm0X48JtF+LvDt+MP/h3bD/7/fw87
 wb5e3ca3Pzb4Oxr86eAvP/jTwV9+8KeDv/zgTwd/+cGfDv7ygz8d/OUHfzr4y+8b7EA7QE48e9MA
-AAAASUVORK5CYII=)
+AAAASUVORK5CYII=">
 
    Repeating this logic eventually gets us here. This scenario, however, is already
    broken---there simply isn't a way to get the snake back into the top right box,
    if we can't put a red cell in that middle row.
-![Burma-Shave](data:image/png;base64,
+<img alt="Burma-Shave" src="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAXwAAAF8CAMAAAD7OfD4AAAA1VBMVEX////9/v39/fz5/Pf4+/b1
 +fH0+O/z+O7u9ejs9OTr9OPp8+Ho8t/k8Nnh7tXf7NHZ6cnX6MfW58XV58TT5sHS5b/A4P+/2qS7
 2J+x05H/o6Oqz4enzIKiyXqZxW6Pv2CLvVqFuVJipSBgpB1foxteoxteoxpdohhboRVaoRRYoBJY
@@ -244,7 +244,7 @@ WYQPP7MIH35mET78zCJ8+JlF+PAzi/DhZxbhw88swoefWYQPP7MIH35mET78zCJ8+JlF+PAzi/Dh
 Zxbhw88swoefWfQ0oqcRM4vw4WcW4cPPLMKHn1mEDz+zCB9+ZhE+/MwifPiZRfjwM4vw4WcW4cPP
 LMKHn1mEDz+zCB9+ZhE+/MwifPiZRfjwM4vw4WcW4Q8O36Y/+EdsOPifLhWbwQ6/fBbf5jb4Axr8
 1sEf/eC3Dv7oB7918Ec/+K2DP/rBbx380Q9+6+CPfvBbB3/0+w9gafNA+uY1rAAAAABJRU5ErkJg
-gg==)
+gg==">
 
 This type of logic is fairly time-consuming and error prone, but it's not really
 that complex[^but-longer-than-expected], so we put together a Python program to
@@ -259,7 +259,8 @@ very neat nor readable, but it seems to do what we want!
 
 <details>
 <summary>Open if you dare!</summary>
-{% highlight python %}
+
+```python
 #!/usr/bin/python3
 import copy
 from time import sleep
@@ -581,7 +582,8 @@ for start_x in range(9):
             empty_grid.append([EMPTY] * 9)
         empty_grid[start_x][start_y] = ODD_SNAKE
         recursive_dfs(empty_grid, (start_x, start_y), None, ODD)
-{% endhighlight %}
+```
+
 </details>
 
 While the rate my terminal emulator can display the text seems to currently be
