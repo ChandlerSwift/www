@@ -1,7 +1,7 @@
 {{ define "main" }}
 <h1><a href="{{.Permalink}}">{{.Title}}</a></h1>
 <div class="media">
-    {{ range .Pages.ByPublishDate }}
+    {{ range .Pages }}
     {{ partial "post-stub.html" . }}
     {{ end }}
 </div>
