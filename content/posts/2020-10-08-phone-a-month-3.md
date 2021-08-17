@@ -4,7 +4,7 @@ title: "A phone a month for a year: September: Custom LineageOS 16.0/MicroG"
 ---
 
 Here's another post about the open-source phone exploration I started
-[in July]({% post_url 2020-07-29-phone-a-month %}). Last month, I ran an
+[in July]({{< ref 2020-07-29-phone-a-month >}}). Last month, I ran an
 [unofficial LineageOS/microG build](https://forum.xda-developers.com/g7-power/development/unofficial-lineageos4microg-16-0-t4057273)
 (containing no Google apps) to pretty good results. 
 

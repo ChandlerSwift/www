@@ -3,7 +3,7 @@ layout: post
 title: Piano Heatmap Analysis (Part 2)
 ---
 
-A [long time ago]({% post_url 2015-09-10-piano-heatmap-part-1 %}), I hacked
+A [long time ago]({{< ref 2015-09-10-piano-heatmap-part-1 >}}), I hacked
 together a not-quite-working attempt at tracking played keys on a piano. Today,
 I took another shot at what that attempt might look like with a few more years'
 experience in play.

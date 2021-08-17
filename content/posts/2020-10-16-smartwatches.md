@@ -203,7 +203,7 @@ I've never heard of, I'm a bit hesitant to grant pretty much every major
 permission on my device.
 
 ### KingWear KW88 Pro, AsteroidOS
-[AsteroidOS is lovely]({% post_url 2020-07-14-impressions-of-asteroidos %}). I
+[AsteroidOS is lovely]({{< ref 2020-07-14-impressions-of-asteroidos >}}). I
 can `ssh` in to a root shell, and run lots of neat things[^neat-things] on it!
 But it's nowhere near mature enough where I'd consider it ready for daily use,
 particularly not on this watch. I'm attempting to

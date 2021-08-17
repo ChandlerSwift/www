@@ -4,7 +4,7 @@ title: "A phone a month for a year: August: Several false starts"
 ---
 
 I'm continuing my open-source phone exploration I started
-[last month]({% post_url 2020-07-29-phone-a-month %}). This month's updates are
+[last month]({{< ref 2020-07-29-phone-a-month >}}). This month's updates are
 both a bit late and a bit light, with quite a few false starts and dead ends.
 
 <!--more-->

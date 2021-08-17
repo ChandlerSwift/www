@@ -11,7 +11,7 @@ William Henry Monk's tune written for
 this. I was trying to play randomly on the piano from octaves and notes in the
 scale, but suspected my "randomess" of playing wasn't particularly good. But
 what _does_ have good randomness? Python! (If you don't want to read the code,
-just [check out the results at the bottom]({% post_url 2021-02-01-random-eventide %}#results).)
+just [check out the results at the bottom]({{< ref 2021-02-01-random-eventide.md >}}#results).)
 
 <!--more-->
 

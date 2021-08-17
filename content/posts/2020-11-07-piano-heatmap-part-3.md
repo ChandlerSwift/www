@@ -4,8 +4,8 @@ title: Piano Heatmap Analysis (Part 3)
 ---
 
 A third post in a series
-([part 1]({% post_url 2015-09-10-piano-heatmap-part-1 %}),
-[part 2]({% post_url 2020-07-19-piano-heatmap-part-2 %})) on exploring what keys
+([part 1]({{< ref 2015-09-10-piano-heatmap-part-1 >}}),
+[part 2]({{< ref 2020-07-19-piano-heatmap-part-2 >}})) on exploring what keys
 of a piano I use the most. 
 
 <!--more-->
@@ -25,7 +25,7 @@ an update on my attempt to keep track of the keys I play.
     project list just as full COVID-19 stay-at-home measures started, so it
     hasn't borne any fruit yet. Someday!
 
-We [left off]({% post_url 2020-07-19-piano-heatmap-part-2 %}) with a page that
+We [left off]({{< ref 2020-07-19-piano-heatmap-part-2 >}}) with a page that
 would keep track of keys played, but every time the page was reloaded (which
 wasn't infrequent, given that Edge[^edge] crashed more than occasionally when
 MIDI devices were added and removed) the data would be reset, so it was

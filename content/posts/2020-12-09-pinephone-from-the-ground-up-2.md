@@ -7,7 +7,7 @@ IncludeSyntaxStyles: true
 
 <style>code { font-size: 1.3em; line-height: 1.4em; }</style>
 A few weeks ago, I
-[compiled and installed a Linux kernel]({% post_url 2020-11-10-pinephone-from-the-ground-up %})
+[compiled and installed a Linux kernel]({{< ref 2020-11-10-pinephone-from-the-ground-up >}})
 and a bit of other software to run on the PinePhone. Today, let's look at some
 next steps.
 

@@ -5,7 +5,7 @@ IncludeSyntaxStyles: true
 ---
 
 A solid two days in,
-[AsteroidOS on the KingWear KW88]({% post_url 2020-07-12-asteroidos-on-kw88-pro %})
+[AsteroidOS on the KingWear KW88]({{< ref 2020-07-12-asteroidos-on-kw88-pro >}})
 is...absolutely awesome. The watch is plenty functional as a watch, hasn't died
 in 48 hours (though currently the battery is `undefined`% so I'm not sure how
 long that'll last!) and it scratches every bit of my tinkerer's itch. It's
