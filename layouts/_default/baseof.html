@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Chandler Swift: Cloud Engineer at work, assorted hacks at home. Musician, tinkerer.">
@@ -9,7 +9,6 @@
 <link rel="alternate" type="application/rss+xml" title="Chandler Swift's Blog" href="https://chandlerswift.com/posts/index.xml">
 <link rel="alternate" type="application/rss+xml" title="Chandler Swift's Projects" href="https://chandlerswift.com/projects/index.xml">
 <style>
-	/* Global CSS */
 	div.container {
 		margin: 0 auto;
 		max-width: 1200px;
@@ -21,10 +20,9 @@
 	#nav-links {
 		font-family: sans-serif;
 		margin-top: -10px;
-		margin-bottom: 40px;
+		margin-bottom: 20px;
 	}
 
-	/* chandlerswift.com-specific css */
 	div.container {
 		grid-template-columns: 3fr 1fr;
 	}
@@ -32,12 +30,6 @@
 	div.content {
 		grid-column-start: 1;
 		overflow: auto; /* For some reason, without this, the overflow on <pre>s breaks. */
-	}
-
-	#nav-links {
-		font-family: sans-serif;
-		margin-top: -10px;
-		margin-bottom: 20px;
 	}
 
 	div.sidebar {
@@ -81,7 +73,7 @@
 		color: #888;
 	}
 
-	hr.separator {
+	hr {
 		border: none;
 		height: 1px;
 		background-color: #ccc;
@@ -234,11 +226,6 @@
 					alt="Chandler Swift" class="profile-img">
 
 				<h1>Chandler Swift</h1>
-				<p id="nav-links">
-					<strong><a href="https://chandlerswift.com/">Home</a></strong> |
-					<a href="https://home.chandlerswift.com/">Burnsville, MN</a>
-				</p>
-				<hr class="separator">
 				<p>Cloud Engineer at work, assorted hacks at home. Musician, tinkerer.</p>
 
 				<div class="profile-links">

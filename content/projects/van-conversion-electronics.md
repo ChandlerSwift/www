@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Van Conversion Electronics
-include_stl_viewer: true
+IncludeSTLViewer: true
 summary: In which I help <a href="https://isaacswift.com/">my brother</a> to
     add an electrical system to his van conversion project, including lighting,
     battery control, automatic charging and disconnect from the vehicle battery,
