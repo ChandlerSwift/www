@@ -2,6 +2,7 @@
 <h2>{{ .Title }}</h2>
 <p class="date">
 	{{ if .Date }}Published {{ .Date.Format "January 2, 2006" }} on <a href="/">Chandler Swift's Blog</a>{{ end }}
+	<a class="source" href="https://github.com/ChandlerSwift/www/blob/master/content/{{ .Page.File.Path }}">Source</a>
 </p>
 <hr>
 <article>
