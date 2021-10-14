@@ -157,9 +157,9 @@ sudo zpool import Duluth nas
 
 [^long-time]: 
     ```
-root@nas:~# zfs get creation nas
-NAME  PROPERTY  VALUE                  SOURCE
-nas   creation  Fri Aug  9  8:59 2019  -
+    root@nas:~# zfs get creation nas
+    NAME  PROPERTY  VALUE                  SOURCE
+    nas   creation  Fri Aug  9  8:59 2019  -
     ```
 
 ### Future steps
