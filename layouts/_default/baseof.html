@@ -197,6 +197,15 @@
 		margin-bottom: 20px;
 	}
 
+	/* Oof. Details always have a summary, but if the only thing in the details
+	   is the summary and something syntax-highlighted, then let's remove the
+	   extra padding, plus one pixel for what effectively becomes
+	   border-collapse. I will be very happy if I can figure out a more elegant
+	   way to do this. */
+	details > div.highlight:nth-child(2):last-child {
+		margin: -21px;
+	}
+
 	/* https://css-tricks.com/snippets/css/prevent-superscripts-and-subscripts-from-affecting-line-height/ */
 	sup {
 		vertical-align: baseline;
