@@ -212,6 +212,13 @@
 		float: right;
 		font-style: normal;
 	}
+
+	:not(pre) > code {
+		font-size: 1em;
+		padding: 3px 5px;
+		background: rgba(191, 191, 191, 0.4);
+		border-radius: 4px;
+	}
 </style>
 {{ if .Params.IncludeSyntaxStyles }}
 <link rel="stylesheet" type="text/css" href="/css/syntax.css">
