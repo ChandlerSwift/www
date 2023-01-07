@@ -31,9 +31,9 @@ but not of all, of those:
 - [x] DNS server/forwarder
 - [x] VPN server (WIP, untested)
 - [ ] Wireless access point (I use a [Unifi AC Lite](https://store.ui.com/products/unifi-ac-lite), which may soon also be running OpenWRT)
-- [ ] Modem, sometimes (I have a [Motorola MB7220](https://www.motorola.com/us/mb7220/p))
-- [ ] Ethernet switch (I'm running some 24-port gigabit switch I pulled out of a
+- [ ] Ethernet switch (I'm running a Netgear GS724T switch I pulled out of a
       dumpster; nothing fancy, but it gets the job done)
+- [ ] Modem, sometimes (I use a [Motorola MB7220](https://www.motorola.com/us/mb7220/p))
 
 {{< toc >}}
 
@@ -91,8 +91,14 @@ $ ls -lh
 -rw-r--r-- 1 chandler chandler 9.5K Dec 28 19:28 core-0-usage.png
 
 Note that Imagemagick produces a _smaller_ image than the default compression!
+
+So, instead, I created an APNG with https://ezgif.com/apng-maker, which was
+much more in line with the size I was expecting.
+
+$ ls -lh all-cores.png
+-rw-r--r-- 1 chandler chandler 8.4K Jan  6 13:44 content/posts/2023-01-04-new-year-new-router/all-cores.png
 -->
-![a two hour graph of CPU usage, hovering around 0% for 30 minutes, hovering around 100% for 60 minutes, and hovering around 0% for 30 more minutes](new-year-new-router/core-0-usage.png)
+![a two hour graph of CPU usage, hovering around 0% for 30 minutes, hovering around 100% for 60 minutes, and hovering around 0% for 30 more minutes](new-year-new-router/all-core-usage.png)
 
 ![a two hour graph of temperature, stabilizing around 65°C after half an hour after the CPU spike](new-year-new-router/temperature.png)
 
@@ -113,10 +119,15 @@ feel the need to do more investigation unless I run into problems.
 
 [Further discussion on the Armbian forums](https://forum.armbian.com/topic/14365-nanopi-r2s-overheating-and-throttling/)
 
-### Power consumption: X Watts
-TODO
+### Power consumption: Typically 2-3 Watts
+When idle, the router pulls as little as 2.0 to as much as 2.5 watts; it seems
+to average 2.1 or 2.2, measured with a
+[Kill-A-Watt P4400](http://www.p3international.com/products/P4400.html). When
+running a speedtest (so about 200mbps down), I measured barely more power
+(2.3–2.6W), and when running a quad-core stress test, the highest observed peak
+was 4.2 watts.
 
-### Other considerations
+### Other considered hardware
 I'd also been looking at some other models in the NanoPi line, and ooh boy do
 they ever make a lot of models. This feels like one of those choices that might
 be accidentally turing-complete! Here's a comparison of all of NanoPi's boards
@@ -180,8 +191,8 @@ I don't run vlans or anything that requires internal-only networking to pass
 through the router; and I don't have >1Gbps networking set up anywhere in my
 house.
 
-And, worth a mention: FriendlyElec's documentation is really good. See, for my
-board for example: http://wiki.friendlyelec.com/wiki/index.php/NanoPi_R2S
+And, worth a mention: FriendlyElec's documentation is really good. See for this
+board, for example: http://wiki.friendlyelec.com/wiki/index.php/NanoPi_R2S
 
 ## Installing OpenWRT
 
@@ -208,12 +219,13 @@ up some basics like time and time zone, and adding my SSH keys.
 
 ### Basic routing: Plug and play
 
-I just plugged in the router and the tubes started flowing. No configuration
-needed.
+I just plugged in the router and the
+[tubes](https://en.wikipedia.org/wiki/Series_of_tubes) started flowing. No
+configuration needed.
 
 ### Static DHCP leases
 In general, I try to use DHCP for everything I can; however, there are a few
-things on my network for which I like to have static addresses set up. (I set
+things on my network for which I need to have static addresses set up. (I set
 these up as static DHCP leases, so they can survive accidental networking
 configuration changes; I've done that more than once!) Those exceptions are, at
 the moment, the router, my desktop, and my HTTP server (since I can't port
@@ -277,7 +289,7 @@ stats, plus potentially more in the future.
 
 I haven't yet figured out what the default LuCI install uses for its statistics
 (Status > Realtime Graphs), and if I can add stats to that instead of collectd.
-It does appear, though, that those stats are only graphed when I'm viewing the
+It does seem, though, that those stats are only graphed when I'm viewing the
 page, while I can get historic graphs at any time with collectd.
 
 ![a screenshot of some built-in graphs](new-year-new-router/luci-other.png)
@@ -416,6 +428,15 @@ read-only filesystem, since they're not known for their reliability.
   to set up vlans for my IoT gear. My switch and access point both support this,
   so it might be nice to try.
   https://openwrt.org/docs/guide-user/network/vlan/start
+
+### Reboot time: 30 seconds
+One thing I wanted to measure was how long the router takes to come back up
+after a reboot or power outage. My fairly unscientific test ("start pinging the
+router, SSH in and reboot the router, measure how many seconds' worth of pings
+are lost"), repeated 3 times, yielded 29, 29, and 30 seconds. This isn't
+fantastic (something this basic should probably be able to start and get network
+connected somewhat faster) but it's definitely usable, and an improvement over
+what I had with pfSense.
 
 ### UI samples
 
