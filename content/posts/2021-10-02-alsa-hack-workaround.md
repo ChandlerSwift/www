@@ -110,3 +110,24 @@ Restart=always
 WantedBy=default.target
 chandler@xenon ~ %
 ```
+
+**Update 2024-04-18:** [Hajo Noerenberg](https://github.com/hn) informs me that
+this can be made substantially more efficient by waiting for a mixer event
+rather than polling inputs:
+
+```diff
+- // Don't monopolize the CPU; it's okay if the levels desync for 100ms
+- nanosleep(&(struct timespec){0, 100 * 1000 * 1000}, NULL); // 100ms
++ // Wait for a mixer to become ready (i.e. at least one event pending)
++ snd_mixer_wait(handle, 1000);
+```
+
+Hajo also provides a much cleaner solution for a similar problem:
+
+> In the meantime I've released a slightly more complex daemon to watch for audio activity and volume changes:
+>
+> https://github.com/hn/linkplay-a31/blob/main/openwrt-linkplay-a31/linkplay-emu/src/linkplay-emu.c
+>
+> Might be helpful for some people perhaps.
+
+Thanks, Hajo!
